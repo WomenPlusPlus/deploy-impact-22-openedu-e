@@ -70,3 +70,35 @@ Protégé offers the concept of enumerated classes, which are classes that are l
 | utilizes | Aiding tools & Reference material/Dynamic content | Aiding tools & Reference material | A resource from the subclass Aiding tools & Reference material can utilize another resource from the same class/ A resource form dynamic content can utilize a resource from Aiding tools & Reference material |  
 
 
+# Data properties (aka attributes)
+
+| Data Property | Domain (subject) Class | Range (object) Datatype | Description | 
+| ------------- | ---------------------- | ----------------------- | ----------- |
+| hasAccessibilityFeatures | Resource | boolean | A resource has or does not have accessibility features |
+| hasAdditionalInfo | Resource | string | A resource has additional more detailed information |
+| has Address | Institution profile | string | An institutions profile has its physical address |
+| hasBio | User profile | string | A user profile has their bio |
+| hasDescription | Resource/Collections/Institution profile | string | An instance of domain classes has a description |
+| hasDuration | Dynamic content | integer | An instance of the class has a duration in days |
+| hasEmailAddress | User/Institution | string | A user/institution has an email address |
+| hasStartDate | Dynamic content | datetime | An instance of the class has a start date |
+| hasEndDate | Dynamic content | datetime | An instance of the class has an end date |
+| hasExternalPartner | Resource | string | A resource can have a text listing institutions/organizations that are collaborators or partners to creating its content but are not on openedu platform |
+| hasFunding | Projects | string | A project has a text describing the type of funding and funding body |
+| hasId | Resource/Collections/User/Institution | string | An instance of these classes has a unique identifier |
+| hasLink | Resource/Institution profile/License | URI | link leading to more information on the instance |
+| hasLocationCanton | Dynamic content/Institution profile | string | Geographical location: canton (Relevant if the country is CH only) |
+| hasLocationCity | Dynamic content/Institution profile | string | Geographical location: city |
+| hasLocationCountry | Dynamic content/Institution profile/User profile | string | Geographical location: country |
+| hasMedia | Resource | URI | Resource can have links to relevant media files |
+| hasName | User/Institution/Collections/License | string | instance has a name |
+| hasNumberOfContributions | User profile/Institution profile | integer | User profile or institution profile has number of contributions to the platform |
+| hasPersonalTitle | User profile | string | User profile has their preferred personal title | 
+| hasRecurrence | Dynamic content | boolean | An instance of the class is either recurrent or not |
+| hasRecurrenceDescription | Dynamic content | string | An instance of the class has description of the nature of its recurrence rate |
+| hasSocialNetworkProfile | User profile/Institution profile | URI | A user profile or institution profile has links to their social network profile(s) |
+| hasSponsor | Events & Contests | string | An instance of the class has a sponsor | 
+| hasTitle | Resource | string | A resource has a title | 
+| hasSubtitle | Resource | string | A resource has a subtitle (i.e. tagline) |
+| hasTag | Resource | string | A resource has tag(s) which are short text (one or two words) that describe the content of a resource |
+| hasTelephoneNumber | Institution profile | string | An institution profile has its telephone number |
