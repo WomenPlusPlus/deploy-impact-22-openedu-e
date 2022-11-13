@@ -42,3 +42,31 @@ Protégé offers the concept of enumerated classes, which are classes that are l
 | User role | The role played by the user on the platform, could be learner or educator | 
 
 
+# Object properties (aka entity relationships)
+
+
+| Object Property | Domain (subject) Class | Range (object) Class | Description | 
+| ------------- | ------------------------ | -------------------- | ----------- |
+| hasAffiliatedUsers | Institution profile | User profile | Institution profile has affiliated user profiles |
+| isAffiliatedTo | User profile | Institution profile | A user profile is affiliated to an institution`s profile |
+| hasAttendanceForm | Dynamic content | Attendance form | Dynamic content has attendance form |
+| hasDifficultyLevel | Guides & Tutorials/Trainings & Workshops | Difficulty level | Guides & Tutorials/Trainings & Workshops have a difficulty level |
+| hasLanguageOfContent | Resource | Language | A resource has language of content |
+| hasLicense | Resoucrce | License | A resource has a license |
+| hasPartner | Resource | Institution | A resource could have partner institutions/organizations other than the uploader who are part of the openedu platform and are collaborators or partners to its content |
+| hasProfile | User/Institution | User profile/Institution profile| A user or an institution have a detailed profile |
+| hasResource | Knowledge topic | Resource | A knowledge topic has resource(s) |
+| hasRole | User | User role | A user has one or more role(s) | 
+| hasTarget | Resource | Target audience | a resource has a target audience |
+| hasTopic | Resource | Knowledge topic | A resource has a knowledge topic |
+| hasUploader | Resource | User/Institution | A resource has an uploader |
+| isUploaderOf | User/Institution | Resource | A user/institution is the uploader of a resource |
+| isForEducationalLevel | Resource | Educational level | A resource is for one or more educational levels |
+| isGroupOf | Collections | Resource | A collection is a group of resources sharing a theme |
+| isPartOf | Resource | Collections | A resource can be part of a collection |	
+| isLinkedTo | User Profile/Institution profile | User/Institution | A user profile is linked to a specific user/ an institution profile is linked to a specific institution |
+| trainsKeyCompetency | Resource | Key competences | A resource trains one or more key competences |
+| trainsSkill | Resource | Skills | A resource trains one or more skills |
+| utilizes | Aiding tools & Reference material/Dynamic content | Aiding tools & Reference material | A resource from the subclass Aiding tools & Reference material can utilize another resource from the same class/ A resource form dynamic content can utilize a resource from Aiding tools & Reference material |  
+
+
