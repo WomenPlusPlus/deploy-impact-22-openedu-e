@@ -5,6 +5,8 @@
 * [Abstract](#Abstract)
 
 * Implementation in Protégé 
+
+
 After the initial step of conceptualizing and creating a mockup for the ontology, we looked into tools to implement it. We decided to use Protégé, an ontology development tool developed by Stanford university. Protégé is a well-developed and supported user-friendly interface for creating and editing ontologies with full support for the OWL 2 Web Ontology Language. A good starting point for us was reading the Ontology development 101 [guide by Stanford university](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf). Another important guide was reading and referring to this [practical guide](https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view) to building ontologies in Protégé, which details building the famous Pizza ontology in Protégé.
 We used Protégé version 5.5 which the latest version to date. 
 An important feature of Protégé is the Reasoner. The Reasoner is a tool that when activated, checks the ontology for inconsistencies and makes inferences based on the current state of the ontology. 
