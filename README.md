@@ -6,7 +6,7 @@ Repository for Team openedu-e for deploy(impact) 2022
  <img src="https://user-images.githubusercontent.com/37207832/199510757-5fde0b18-bd73-49bc-8c32-1a8827dcdf81.png" alt="Project logo">
  </a>
 </p>
-<h3 align="center">Project Title</h3>
+<h3 align="center">OpenEdu.ch</h3>
 
 <div align="center">
 
@@ -16,8 +16,9 @@ Repository for Team openedu-e for deploy(impact) 2022
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
+<p align="center"> 
+Different schools and universities would love to benefit from the advantages to have collaborative, shared educational material and prevent duplication of content. When planning an educational activity, the entities involved wish to use existing online material in order to ease the teachers life and to avoid duplication of materials. The existing material on the Internet is complex to find and very confusing. One thing that can save a lot of time is to be able to search a database with this amount of structured data (and directly contact the authors of the research/material).
+<br> 
 </p>
 
 ## 📝 Table of Contents
@@ -33,24 +34,16 @@ Repository for Team openedu-e for deploy(impact) 2022
 - [Acknowledgments](#acknowledgments)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section 
-should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product. 
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
+- IDEAL: The creation of an ontological definition that describes the content found at OpenEdu.ch will improve wikidata learning material organization and reachability. The main goal is to collect all the educational material (from wikimedia and from external sources) in one single place and make this material accessible. 
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution. 
+- REALITY: The filters available on the website are unintuitive and the browsing and search for specific resources is tiresome and the resources are described in a very simple way. The content can also be duplicated.   
+
+- CONSEQUENCES: Blocked cooperation between educators. Dispersion of useful resources in various places and huge difficulty with finding a needed content that would enable learning or teaching. Upload of new resources is manual and tiring. Moderation of the proposed content requires human action and fully manual analysis which hinders addition of bigger volume of resources.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
-This section is used to describe potential solutions. 
-
-Once the ideal, reality, and consequences sections have been 
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
+Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 - What are the dependencies of your project?
@@ -61,8 +54,9 @@ completed, and understood, it becomes easier to provide a solution for solving t
 appropriate, describe how these limitations could point to the need for further research.
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve 
-in the future.
+- Data architecture design: Within the current scope only the general recommendation are included for microservices architecture, as well as defining the new target data schema for education content.
+- Ontology extension: Used for describing additional types of resources or users.
+- Machine learning? 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development 
@@ -96,16 +90,17 @@ until finished
 Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Azure](https://https://portal.azure.com/) - Azure Cloud [which component? Ibti]
+- [Figma](https://nodejs.org/en/) - Prototyping tool
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) 
-who participated in this project.
+- [@slashlan](https://github.com/slashlan)
+- [@s-vigolo](https://github.com/s-vigolo)
+- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
+- [@cyyang50](https://github.com/cyyang50)
+- [@YasmineM311](https://github.com/YasmineM311)
+- [@gildafc](https://github.com/gildafc)
+- [@annopol](https://github.com/annopol)
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 - Hat tip to anyone whose code was used
