@@ -25,7 +25,7 @@ A mockup for the proposed ontology design has been created using excalidraw and 
 
 
 ### Ontology in numbers
-The new ontology design consists of **26 classes** (out of which 16 are superclasses), **20 object properties** (aka entity relationships), **28 data properties** (aka attributes). It was implemented using [Protégé](#implementation-of-the-ontology) and has **155 instances**, 26 of which are current OpenEdu resources, 10 are test candidate resources that are not on OpenEdu currently, 1 is a collection. The rest are individuals belonging to enumerated classes such as knowledge topic, skills, key competences …. etc.
+The new ontology design consists of **26 classes** (out of which 16 are superclasses), **20 object properties** (aka entity relationships), **28 data properties** (aka attributes). It was implemented using Protégé as discussed later in this [section](#implementation-of-the-ontology) and has **155 instances**, 26 of which are current OpenEdu resources, 10 are test candidate resources that are not on OpenEdu currently, 1 is a collection. The rest are individuals belonging to enumerated classes such as knowledge topic, skills, key competences …. etc.
 
 
 ### Taxonomy 
