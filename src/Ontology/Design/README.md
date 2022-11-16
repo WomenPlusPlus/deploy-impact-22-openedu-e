@@ -23,7 +23,7 @@
 ### 2.1. Ontology mockup
 A mockup for the proposed ontology design has been created using excalidraw and can be accessed [here](https://excalidraw.com/#room=ab47f46f93e3c44add0a,JJYUaB1o810ZWsoHbxpeyQ). Below is an image of the mockup.
 
-![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/final%20ontology%20designX3.png)
+![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/final%20ontology%20designX3.png)
 
 
 ### 2.2. Ontology in numbers
