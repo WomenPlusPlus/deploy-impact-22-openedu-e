@@ -25,7 +25,7 @@ A mockup for the proposed ontology design has been created using excalidraw and 
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/final%20ontology%20design.png">
+  <img width="800" height="800" src="https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/final%20ontology%20design.png">
 </p>
 
 
