@@ -236,7 +236,7 @@ In order to test our ontology and it`s capability to describe other candidate re
 The crawler suggested several resources some of which were already part of OpenEdu. After exclusion of irrelevant ad redundant content, 10 resources were considered suitable for incorporation into the platform, all of which were successfully classified by the new ontology and implemented into Protégé.
 For ease of identification of these resources, the corresponding instances created in Protégé start with the prefix **Test**. 
 
-![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/test_resource4.png)
+/Design/test_resource4.png
 
 
 
