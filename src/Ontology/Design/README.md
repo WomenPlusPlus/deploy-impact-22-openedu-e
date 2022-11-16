@@ -1,49 +1,49 @@
 ## Contents
 
-* [Introduction](#introduction) 
-* [Overview](#overview) 
-* [Conceptualization and logic behind the ontology](#conceptualization-and-logic-behind-the-ontology)
-* [Classes definition](#classes-definition)
-* [Object properties (aka entity relationships)](#object-properties-(aka-entity-relationships))
-* [Data properties (aka attributes)](#data-properties-(aka-attributes))
-* [Constraints](#constraints) 
-* [Implementation of the Ontology](#implementation-of-the-ontology)
-* [Testing the ontology](#testing-the-ontology)
-* [Suggestions for future expansion](#suggestions-for-future-expansion)
-* [Multilingual Support](#multilingual-support)
+* [1. Introduction](#introduction) 
+* [2. Overview](#overview) 
+* [3. Conceptualization and logic behind the ontology](#conceptualization-and-logic-behind-the-ontology)
+* [4. Classes definition](#classes-definition)
+* [5. Object properties (aka entity relationships)](#object-properties-(aka-entity-relationships))
+* [6. Data properties (aka attributes)](#data-properties-(aka-attributes))
+* [7. Constraints](#constraints) 
+* [8. Implementation of the Ontology](#implementation-of-the-ontology)
+* [9. Testing the ontology](#testing-the-ontology)
+* [10. Multilingual Support](#multilingual-support)
 * [Development Tools](#tools-used-during-development)
 * [Languages](#languages)
 * [Ontology files](#Ontology-file)
+* [Suggestions for future expansion](#suggestions-for-future-expansion)
 
-## Introduction
+## 1. Introduction
 
 
-## Overview
+## 2. Overview
 
-### Ontology mockup
+### 2.1. Ontology mockup
 A mockup for the proposed ontology design has been created using excalidraw and can be accessed [here](https://excalidraw.com/#room=ab47f46f93e3c44add0a,JJYUaB1o810ZWsoHbxpeyQ).
 
 
-### Ontology in numbers
+### 2.2. Ontology in numbers
 The new ontology design consists of **26 classes** (out of which 16 are superclasses), **20 object properties** (aka entity relationships), **28 data properties** (aka attributes). It was implemented using Protégé as discussed later in this [section](#implementation-of-the-ontology) and has **155 instances**, 26 of which are current OpenEdu resources, 10 are test candidate resources that are not on OpenEdu currently, 1 is a collection. The rest are individuals belonging to enumerated classes such as knowledge topic, skills, key competences …. etc.
 
 
-### Taxonomy 
+### 2.3. Taxonomy 
 
 The figure below shows the taxonomy of classes in the new ontology design.
 
 ![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/taxonomy.png)
 
 
-## Conceptualization and Logic behind the ontology design
+## 3. Conceptualization and Logic behind the ontology design
 
-### Creating a metadata schema
+### 3.1. Creating a metadata schema
 
 A preliminary step, that paved the path to the ontology design was to extract metadata from the current OpenEdu content and put into a structured schema. This was done by first inspecting OpenEdu`s content one by one, and then digging deeper into the resource by accessing its link and trying to extract relevant information that could be valuable in conceptualizing the ontology. This metadata schema can be accessed [here](https://docs.google.com/spreadsheets/d/1Qb1J6ygn0FOAdwGGGXNcP_pRNIEO41if/edit#gid=323866940), text-rich metadata such as resource description and additional information was put into a separate spreadsheet tab (metadata2), this was used as a dataset for the one of the NLP components of the project. 
 Additionally, this schema was helpful when creating instances in Protégé discussed in later [sections](#implementation-of-the-ontology) as it provided a structured and easy access to the information of each resource.
 
 
-### Defining relevant terms 
+### 3.2. Defining relevant terms 
 
 A crucial step for ontology conceptualization is defining terms and classes relevant for the domain the ontology covers. 
 
@@ -51,7 +51,7 @@ A crucial step for ontology conceptualization is defining terms and classes rele
 After creating the metadata schema and examining similar platforms, relevant terms for the ontology design became evident to us. We started listing down these terms and tried to envision whether they would be candidates to be classes or attributes in the ontology. Some examples of such terms include [Open access, Open education, Wikimedia sister project, Project type, Project scope, Project target audience, Project location, skills, Project link, Topic, License, Training, Guide, Explanatory video, School project, University project, Professors, Teachers, Students, Online course, Teaching material, Foundation, Events, School, University, Primary school, High school, Free, Beginner, Intermediate, Advanced, Language, Onsite, Online]. 
 
 
-### Questions to be answered by the ontology
+### 3.3. Questions to be answered by the ontology
 It was also important to define the questions that need to be answered by the ontology as they define the perspective and approach by which we should design the ontology.
 
 Below is a sample of these questions: 
@@ -65,9 +65,9 @@ Below is a sample of these questions:
 7.	What are latest (temporal aspect) activities (projects/workshops/events) in a given domain?
 
 
-### Defining classes
+### 3.4. Defining classes
 
-#### The Resource superclass and its subclasses
+#### 3.4.1. The Resource superclass and its subclasses
 
 The term **resource** refers to content uploaded to the platform. One of the things that were immediately clear to us is that the current ontology was limited in terms of categorizing uploaded resources, as they were merely split between projects, trainings and news. The categorization is not well-defined, and the uploaded content doesn’t seem to reflect the definitions that are present. For example “Events and Contests” are supposed to be in News according to the homepage but are actually categorized under Projects. In our opinion, this limited categorization does not reflect the variety of content on the platform. Furthermore, using such generic categorization results in inefficient and incorrect categorization of uploaded content, as is the case currently in OpenEdu.
 
@@ -95,18 +95,18 @@ On the other hand, Guides & Tutorials, Tools and Open content online Resources d
 The intermediate subclass **Dynamic Content** has for subclasses Projects, Trainings & Workshops and Events & Contests. They are grouped together by being resources that have a dynamic nature, i.e., are activities that can have a time and a place. For example, a professor running a Project with their students is a resource that is happening in a university (a place) and for a specific semester (a time). Likewise, Events & Contests implicitly have a date connected to them (the date of the event and the deadline for the submission of the contest) and can have a place if they’re not happening online. 
 The intermediate subclass **Aiding Tools and Reference Materials** has for subclasses Guides & Tutorials, Tools, Open content online resources. These are all resources that can be accessed completely online at any time.
 
-#### The Collections superclass
+#### 3.4.2. The Collections superclass
 
 The aim of the superclass is to provide a way for OpenEdu moderators to group and highlight a group of resources that share a common theme. For example, a collection “Wikimedia sister projects” groups all Wikimedia sister projects regardless of their categorization, similarly a collection “Wikipedia-related content” groups resources such as tools, tutorials, trainings and projects that are focused on Wikipedia. These collections could be highlighted in the main page as one of several methods to filter the content on OpenEdu.
 
-#### Enumerated superclasses
+#### 3.4.3. Enumerated superclasses
 
 These are classes that represent important concepts in the ontology. They are characterized by having a defined set of individuals (aka instances). For example, the class **Attendance form** is defined by three and only three individuals: online, onsite and hybrid, hence the name “enumerated”.
 The majority of these classes can be used as filters for the content on OpenEdu. Our recommendation is to use **Knowledge topic**, **Educational level** and **Language** as the main filters in the homepage, and to reserve other classes, namely **Key competences**, **Skills**, **Target audience**, **Attendance form** and **Difficulty level** as advanced filters, that appear when the user moves forward with their search. Such an approach minimizes the possibility of overwhelming the user at an early point in their journey of exploring the resources on OpenEdu.
 
 Another class in this category is the **license** class which represents the license of the resource, this could potentially be a filter in the future, for now that is not feasible as all content has the license CCbySA. 
 
-#### Uploader classes
+#### 3.4.4. Uploader classes
 
 These are classes that represent the body of content uploaders on the platform. We make a distinction between two different uploaders, the **User** superclass represents an uploader who is an individual and the **institution** superclass which represents an uploader which is either an educational institution such as schools and universities, or a foundation such as WikimediaCH.
 Another two related superclasses are the **User profile** and the **Institution profile** which are detailed profile that are linked to the corresponding User or Institution.
@@ -122,7 +122,7 @@ An additional class belonging to this section is the **User role** which is at t
 This class has been added to account for a possible extension of the platform (and the ontology) to include learning paths to users that identify as learners. 
 
 
-## Classes definition
+## 4. Classes definition
 
 | Class| Description| 
 | ------------- | ------------------------------------------- |
@@ -154,7 +154,7 @@ This class has been added to account for a possible extension of the platform (a
 | User role | The role played by the user on the platform, could be learner or educator | 
 
 
-## Object properties (aka entity relationships)
+## 5. Object properties (aka entity relationships)
 
 
 | Object Property | Domain (subject) Class | Range (object) Class | Description | 
@@ -181,7 +181,7 @@ This class has been added to account for a possible extension of the platform (a
 | utilizes | Aiding tools & Reference material/Dynamic content | Aiding tools & Reference material | A resource from the subclass Aiding tools & Reference material can utilize another resource from the same class/ A resource form dynamic content can utilize a resource from Aiding tools & Reference material |  
 
 
-## Data properties (aka attributes)
+## 6. Data properties (aka attributes)
 
 | Data Property | Domain (subject) Class | Range (object) Datatype | Description | 
 | ------------- | ---------------------- | ----------------------- | ----------- |
@@ -215,9 +215,11 @@ This class has been added to account for a possible extension of the platform (a
 | hasTelephoneNumber | Institution profile | string | An institution profile has its telephone number |
 
 
-## Implementation of the ontology 
+## 7. Constraints
 
-After the initial step of conceptualizing and creating a mockup for the ontology, we looked into tools to implement it. We decided to use Protégé, an ontology development tool developed by Stanford university. Protégé is a well-developed and supported user-friendly interface for creating and editing ontologies with full support for the OWL 2 Web Ontology Language. A good starting point for us was reading the Ontology development 101 guide by Stanford university (https://protege.stanford.edu/publications/ontology_development/ontology101.pdf). Another important guide was reading and referring to this practical guide (https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view)  to building ontologies in Protégé, which details building the famous Pizza ontology in Protégé.
+## 8. Implementation of the ontology 
+
+After the initial step of conceptualizing and creating a mockup for the ontology, we looked into tools to implement it. We decided to use Protégé, an ontology development tool developed by Stanford university. Protégé is a well-developed and supported user-friendly interface for creating and editing ontologies with full support for the OWL 2 Web Ontology Language. A good starting point for us was reading the Ontology development 101 [guide by Stanford university](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf). Another important guide was reading and referring to [this practical guide](https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view) to building ontologies in Protégé, which details building the famous Pizza ontology in Protégé.
 We used Protégé version 5.5 which the latest version to date. 
 An important feature of Protégé is the Reasoner. The Reasoner is a tool that when activated, checks the ontology for inconsistencies and makes inferences based on the current state of the ontology. 
 After creating the necessary elements of the ontology; namely classes and subclasses, object properties (aka relationships), and data properties (aka attributes), defining constraints and specifying data types, we created instances for 26 of the current content uploaded on opened.ch. In addition to mapping what is already present on openedu to the current ontology, we also added additional metadata for uploaded resources that are now enabled by the new ontology design. We also created instances for institutions and their associated profiles and linked them to instances of resources through the hasUploader and isUploadedBy object properties. 
@@ -227,7 +229,7 @@ Protégé offers the concept of enumerated classes, which are classes that are l
 
 
 
-## Testing the ontology
+## 9. Testing the ontology
 
 
 In order to test our ontology and it`s capability to describe other candidate resources, we developed and used a crawler to suggest open education resources that could be relevant to the scope of OpenEdu. 
@@ -247,19 +249,7 @@ This was also an opportunity to showcase a scenario where the uploader is an ind
 
 
 
-
-
-
-
-## Languages
-
-* [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/)
-* [RDF (Resource Description Framework)](https://en.wikipedia.org/wiki/Resource_Description_Framework) 
-
-### Ontology files
-
-
-## Multilingual Support
+## 10. Multilingual Support
 
 
 
@@ -267,9 +257,12 @@ This was also an opportunity to showcase a scenario where the uploader is an ind
 
 * Ontology Editor: [Protégé 5.5.0](https://protege.stanford.edu/products.php#desktop-protege)
 
+## Languages
+
+* [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/)
+* [RDF (Resource Description Framework)](https://en.wikipedia.org/wiki/Resource_Description_Framework) 
 
 
-
-
+## Ontology files
 
 
