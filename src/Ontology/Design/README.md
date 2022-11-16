@@ -21,11 +21,11 @@
 ## Overview
 
 ### Ontology mockup
-A mockup for the proposed ontology design has been created using excalidraw and can be accessed ([here](https://excalidraw.com/#room=ab47f46f93e3c44add0a,JJYUaB1o810ZWsoHbxpeyQ)).
+A mockup for the proposed ontology design has been created using excalidraw and can be accessed [here](https://excalidraw.com/#room=ab47f46f93e3c44add0a,JJYUaB1o810ZWsoHbxpeyQ).
 
 
 ### Ontology in numbers
-The new ontology design consists of *26 classes* (out of which 16 are superclasses), *20 object properties* (aka entity relationships), *28 data properties* (aka attributes). It was implemented using Protégé (see here) and has *155 instances*, 26 of which are current OpenEdu resources, 10 are test candidate resources that are not on OpenEdu currently, 1 is a collection. The rest are individuals belonging to enumerated classes such as knowledge topic, skills, key competences …. etc.
+The new ontology design consists of **26 classes** (out of which 16 are superclasses), **20 object properties** (aka entity relationships), **28 data properties** (aka attributes). It was implemented using [Protégé](#implementation-of-the-ontology) and has **155 instances**, 26 of which are current OpenEdu resources, 10 are test candidate resources that are not on OpenEdu currently, 1 is a collection. The rest are individuals belonging to enumerated classes such as knowledge topic, skills, key competences …. etc.
 
 
 ### Taxonomy 
@@ -39,8 +39,8 @@ The figure below shows the taxonomy of classes in the new ontology design.
 
 ### Creating a metadata schema
 
-A preliminary step, that paved the path to the ontology design was to extract metadata from the current OpenEdu content and put into a structured schema. This was done by first inspecting OpenEdu`s content one by one, and then digging deeper into the resource by accessing its link and trying to extract relevant information that could be valuable in conceptualizing the ontology. This metadata schema can be accessed here(openedu_metadata_schema.xlsx - Google Sheets), text-rich metadata such resource description and additional information was put into a separate spreadsheet tab (metadata2), this was used as a dataset for the NLP component of the project. 
-Additionally, this schema was helpful when creating instances on Protégé (discussed in later sections) as it provided a structured and easy access to the information of each resource.
+A preliminary step, that paved the path to the ontology design was to extract metadata from the current OpenEdu content and put into a structured schema. This was done by first inspecting OpenEdu`s content one by one, and then digging deeper into the resource by accessing its link and trying to extract relevant information that could be valuable in conceptualizing the ontology. This metadata schema can be accessed [here](https://docs.google.com/spreadsheets/d/1Qb1J6ygn0FOAdwGGGXNcP_pRNIEO41if/edit#gid=323866940), text-rich metadata such as resource description and additional information was put into a separate spreadsheet tab (metadata2), this was used as a dataset for the one of the NLP components of the project. 
+Additionally, this schema was helpful when creating instances in Protégé discussed in later [sections](#implementation-of-the-ontology) as it provided a structured and easy access to the information of each resource.
 
 
 ### Defining relevant terms 
@@ -69,9 +69,9 @@ Below is a sample of these questions:
 
 #### The Resource superclass and its subclasses
 
-The term *resource* refers to content uploaded to the platform. One of the things that were immediately clear to us is that the current ontology was limited in terms of categorizing uploaded resources, as they were merely split between projects, trainings and news. The categorization is not well-defined, and the uploaded content doesn’t seem to reflect the definitions that are present (for example “Events and Contests” are supposed to be in News according to the homepage but are actually uploaded under Projects). In our opinion, this limited categorization does not reflect the variety of content on the platform. Furthermore, using such generic categorization results in inefficient and incorrect categorization of uploaded content, as is the case currently in OpenEdu.
+The term **resource** refers to content uploaded to the platform. One of the things that were immediately clear to us is that the current ontology was limited in terms of categorizing uploaded resources, as they were merely split between projects, trainings and news. The categorization is not well-defined, and the uploaded content doesn’t seem to reflect the definitions that are present. For example “Events and Contests” are supposed to be in News according to the homepage but are actually categorized under Projects. In our opinion, this limited categorization does not reflect the variety of content on the platform. Furthermore, using such generic categorization results in inefficient and incorrect categorization of uploaded content, as is the case currently in OpenEdu.
 
-To tackle this issue, we created additional classes (i.e., categories) under which uploaded resources can be categorized. We ended up with six subclasses for the Superclass Resource: 
+To tackle this issue, we created additional classes under which uploaded resources can be categorized. We ended up with six subclasses for the Superclass Resource: 
 
 1.	Guides & Tutorials
 2.	Tools
@@ -108,8 +108,8 @@ Another class in this category is the **license** class which represents the lic
 
 #### Uploader classes
 
-These are classes that represent the body of content uploaders on the platform. We make a distinction between two different uploaders, the *User* superclass represents an uploader who is an individual and the *institution* superclass which represents an uploader which is either an educational institution such as schools and universities, or a foundation such as WikimediaCH.
-Another two related superclasses are the *User profile* and the *Institution profile* which are detailed profile that are linked to the corresponding User or Institution.
+These are classes that represent the body of content uploaders on the platform. We make a distinction between two different uploaders, the **User** superclass represents an uploader who is an individual and the **institution** superclass which represents an uploader which is either an educational institution such as schools and universities, or a foundation such as WikimediaCH.
+Another two related superclasses are the **User profile** and the **Institution profile** which are detailed profile that are linked to the corresponding User or Institution.
 
 
 While defining these classes, their attributes and the relationships between them, we made the following assumptions:
@@ -118,7 +118,7 @@ While defining these classes, their attributes and the relationships between the
 3.	A user profile can be affiliated with an institution profile
 
 
-An additional class belonging to this section is the *User role* which is at the moment limited to either “learner” or “educator”. 
+An additional class belonging to this section is the **User role** which is at the moment limited to either “learner” or “educator”. 
 This class has been added to account for a possible extension of the platform (and the ontology) to include learning paths to users that identify as learners. 
 
 
@@ -233,6 +233,7 @@ Protégé offers the concept of enumerated classes, which are classes that are l
 In order to test our ontology and it`s capability to describe other candidate resources, we developed and used a crawler to suggest open education resources that could be relevant to the scope of OpenEdu. 
 The crawler suggested several resources some of which were already part of OpenEdu. After exclusion of irrelevant ad redundant content, 10 resources were considered suitable for incorporation into the platform, all of which were successfully classified by the new ontology and implemented into Protégé.
 For ease of identification of these resources, the corresponding instances created in Protégé start with the prefix **Test**. 
+
 
 ![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/test_resource4.png)
 
