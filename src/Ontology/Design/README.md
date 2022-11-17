@@ -1,6 +1,6 @@
 ## Contents
 
-* [1. Introduction](#introduction) 
+* [1. Introduction](#1.-introduction) 
 * [2. Overview](#overview) 
 * [3. Conceptualization and logic behind the ontology](#conceptualization-and-logic-behind-the-ontology)
 * [4. Classes definition](#classes-definition)
