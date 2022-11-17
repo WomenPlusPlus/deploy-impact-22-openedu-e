@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-16 19:40+0100\n"
+"PO-Revision-Date: 2022-11-16 19:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+
+#: forms/forms.py:7 mysite/settings.py:122
+msgid "English"
+msgstr "Inglese"
+
+#: forms/forms.py:7 mysite/settings.py:124
+msgid "Italian"
+msgstr "Italiano"
+
+#: forms/forms.py:7 mysite/settings.py:125
+msgid "German"
+msgstr "Tedesco"
+
+#: forms/forms.py:7 mysite/settings.py:123
+msgid "French"
+msgstr "Francese"
+
+#: forms/forms.py:8 forms/models.py:22
+msgid "Beginner"
+msgstr "Principiante"
+
+#: forms/forms.py:8 forms/models.py:23
+msgid "Intermediate"
+msgstr "Intermedio"
+
+#: forms/forms.py:8 forms/models.py:24
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: forms/forms.py:8 forms/models.py:25
+msgid "Multiple"
+msgstr "Multipli"
+
+#: forms/forms.py:9 forms/models.py:35
+msgid "Literacy"
+msgstr "Alfabetica funzionale"
+
+#: forms/forms.py:9 forms/models.py:36
+msgid "Multilingual"
+msgstr "Multilinguistica"
+
+#: forms/forms.py:9 forms/models.py:37
+msgid "Mathematical, science, technology, engineering"
+msgstr "Matematica, in scienza, tecnologie e ingegneria"
+
+#: forms/forms.py:9 forms/models.py:38
+msgid "Digital"
+msgstr "Digitale"
+
+#: forms/forms.py:9 forms/models.py:39
+msgid "Personal, social, learning to learn"
+msgstr "Personale, sociale e di imparare a imparare"
+
+#: forms/forms.py:9 forms/models.py:40
+msgid "Citizenship"
+msgstr "In materia di Cittadinanza"
+
+#: forms/forms.py:9 forms/models.py:41
+msgid "Entrepreneurship"
+msgstr "Imprenditoriale"
+
+#: forms/forms.py:9 forms/models.py:42
+msgid "Cultural awareness and expression"
+msgstr "In materia di consapevolezza ed espressione culturali"
+
+#: forms/forms.py:14
+msgid "Title"
+msgstr "Titolo"
+
+#: forms/forms.py:15
+msgid "Description"
+msgstr "Descrizione"
+
+#: forms/forms.py:16
+msgid "url"
+msgstr "url"
+
+#: forms/forms.py:17 forms/templates/index.html:34
+#: forms/templates/resourceview.html:29
+msgid "Level"
+msgstr "Livello"
+
+#: forms/forms.py:18
+msgid "Key Competencies"
+msgstr "Competenze chiave"
+
+#: forms/forms.py:19
+msgid "Add other languages?"
+msgstr "Aggiungere altre lingue?"
+
+#: forms/forms.py:24
+msgid "Language 1"
+msgstr "Lingua 1"
+
+#: forms/forms.py:25
+msgid "Title 1"
+msgstr "Titolo 1"
+
+#: forms/forms.py:26
+msgid "Description 1"
+msgstr "Descrizione 1"
+
+#: forms/forms.py:27
+msgid "url 1"
+msgstr ""
+
+#: forms/forms.py:28
+msgid "Language 2"
+msgstr "Lingua 2"
+
+#: forms/forms.py:29
+msgid "Title 2"
+msgstr "Titolo 2"
+
+#: forms/forms.py:30
+msgid "Description 2"
+msgstr "Descrizione 2"
+
+#: forms/forms.py:31
+msgid "url 2"
+msgstr ""
+
+#: forms/forms.py:32
+msgid "Language 3"
+msgstr "Lingua 3"
+
+#: forms/forms.py:33
+msgid "Title 3"
+msgstr "Titolo 3"
+
+#: forms/forms.py:34
+msgid "Description 3"
+msgstr "Descrizione 3"
+
+#: forms/forms.py:35
+msgid "url 3"
+msgstr ""
+
+#: forms/templates/index.html:14 forms/templates/newlang.html:15
+#: forms/templates/newresource.html:15 forms/templates/resourceview.html:15
+#: forms/templates/thanks.html:15
+msgid "Language"
+msgstr "Lingua"
+
+#: forms/templates/index.html:27
+msgid "Resources"
+msgstr "Risorse"
+
+#: forms/templates/index.html:29
+msgid "Add new resource?"
+msgstr "Aggiungere una nuova risorsa?"
+
+#: forms/templates/index.html:34 forms/templates/resourceview.html:29
+msgid "Key Competence"
+msgstr "Competenza chiave"
+
+#: forms/templates/newresource.html:28
+msgid "Input resource details in English"
+msgstr "Inserire i dettagli della risorsa in italiano"
+
+#: forms/templates/resourceview.html:38 forms/templates/thanks.html:32
+msgid "Back to home"
+msgstr "Torna alla home"
+
+#: forms/templates/thanks.html:28
+msgid "Thank you for your submission"
+msgstr "Grazie per la richiesta"
+
+#: forms/templates/thanks.html:29
+msgid "See resource"
+msgstr "Vedi risorsa"
+
+#: mysite/urls.py:24
+msgid "admin/"
+msgstr ""
+
+#~ msgid "url1"
+#~ msgstr "url1"
+
+#~ msgid "url2"
+#~ msgstr "url2"
+
+#~ msgid "url3"
+#~ msgstr "url3"
+
+#~ msgid "Title in italian"
+#~ msgstr "Titolo in italiano"
+
+#~ msgid "Description in italian"
+#~ msgstr "Descrizione in italiano"
