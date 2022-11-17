@@ -45,6 +45,108 @@ Different schools and universities would love to benefit from the advantages to 
 The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
 
+Our value proposition:
+- Versatile Ontology for Knowledge Management and fostering collaboration between different users 
+- Mulitlingual Ontology Support built with Django 
+- AI Engine enabling AI features (for Moderation and Upload) 
+- Moderation Board Workflow
+- Uploading Process 
+- Semantic Search
+- New Relevant Content sraping
+- Figma Prototype with UI/UX Design.
+
+
+## Repository Structure: 
+The generic schema of folder is created as following:
+- src: Codes and parametrization of the module.
+- doc: Descritpive documentation of the module.
+- test: Test experiment.  
+
+/? links to the specific folders to show the structure? 
+1.	README.md (Template Anna to fill out)
+2.	src → Core modules
+    ○	Format: Folders + README.md
+    ○	Content:
+    ■	Folders → Scripts
+    ■	Data
+      ■	Datasets
+      ■	Database schema
+      ■	Data Scraping
+      ■	README.md
+    ■	README.md 
+    ■	Architecture
+      ■	Overall Architecture
+      ■	UI - Backend/Frontend
+      ■	Flowcharts/Diagrams
+      ■	SQL/NoSQL
+      ■	Ontology mapping
+    ■	Ontology
+      ■	README.md
+      ■	Contents
+      ■	Intro
+        ■	Abstract
+      ■	Use Case
+      ■	Explain Folders contents
+      ■	Design
+      ■	README.md
+      ■	Overview of the classes → nice image of the design conceptual map
+      ■	Tools
+      ■	OWL/RDF/JSON files
+      ■	metadata.txt
+      ■	Patterns
+      ■	Navigation
+      ■	Access/Read and Edit
+      ■	Visualization
+      ■	Documentation
+      ■	Querying
+    ■	Testing and Evaluation
+      ■	Ontology Competency Questions 
+    ■	NLP Pipeline, # Topics Elaborated
+    ■	Topics prediction and Similarity Search → serve for the recommendation later and deduplication
+      ■	README.md
+      ■	Scripts/Experiments
+      ■	Recommendation
+      ■	README.md
+    ■	Upload
+      ■	README.md: Make it smoother, how?
+      ■	Filters Suggestions!
+      ■	Description → Summarization
+      ■	Language detection
+    ■	Moderation
+      ■	README.md
+      ■	License Checker
+      ■	Link Checker
+      ■	Content moderation
+      ■	Text
+      ■	Image
+      ■	Duplicates Discovery
+      ■	Ontology Learning Experiments
+      ■	README.md
+    ■	Topics clustering (before)
+      ■	Multi-class multi-label classification (once classes are defined)
+      ■	README.md
+    ■	ML (Optional)
+      ■	README.md 
+    ■	Additional AI Features (Within each folder or separately, we’ll decide!)
+      ■	Important Note: Show how modules/folders:
+      ■	connect with the project → user-based → map user journey
+      ■	We’re telling a story! key points + our answers below!
+    ■	Upload
+      ■	Make process smoother
+    ■	Moderation
+    ■	  Quality/policy Check
+    ■	content Search:
+    ■	use content - elaborate projects
+    ■	Search Engine
+    ■	Collaboration of Authors
+    ■	Class: collection
+    ■	inter-connect
+    3.	test
+    4.	docs
+    5.	LICENSE file
+
+
+
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 - What are the dependencies of your project?
 - Describe each limitation in detailed but concise terms
@@ -52,6 +154,12 @@ Our product includes elements and workflows of streamlined uploading process, as
 - Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
 - Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
 appropriate, describe how these limitations could point to the need for further research.
+
+Limitations:
+- Enhance current mvp into a finite product
+- Data Architecture with dtaabase schema, webservices and scalability solutions
+- 
+
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
 - Data architecture design: Within the current scope only the general recommendation are included for microservices architecture, as well as defining the new target data schema for education content.
@@ -61,6 +169,11 @@ appropriate, describe how these limitations could point to the need for further 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development 
 and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+Final scripts are written in Python. 
+Sonia - Django !
+!! * For requirements like install packages 
+
 
 ### Prerequisites
 
@@ -90,7 +203,7 @@ until finished
 Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
-- [Azure](https://https://portal.azure.com/) - Azure Cloud [which component? Ibti]
+- [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 
 ## ✍️ Authors <a name = "authors"></a>
