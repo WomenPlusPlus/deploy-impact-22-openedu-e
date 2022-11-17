@@ -1,9 +1,9 @@
 ## Contents
 
-* [1. Introduction](##1.-introduction) 
-* [2. Overview](##2.-overview) 
-* [3. Conceptualization and logic behind the ontology](##3.-conceptualization-and-logic-behind-the-ontology)
-* [4. Classes definition](##4.-classes-definition)
+* [1. Introduction](##introduction) 
+* [2. Overview](##overview) 
+* [3. Conceptualization and logic behind the ontology](##conceptualization-and-logic-behind-the-ontology)
+* [4. Classes definition](##classes-definition)
 * [5. Object properties (aka entity relationships)](#object-properties-(aka-entity-relationships))
 * [6. Data properties (aka attributes)](#data-properties-(aka-attributes))
 * [7. Constraints](#constraints) 
