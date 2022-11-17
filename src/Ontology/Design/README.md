@@ -1,9 +1,9 @@
 ## Contents
 
-* [1. Introduction](#1.-introduction) 
-* [2. Overview](#2.-overview) 
-* [3. Conceptualization and logic behind the ontology](#3.-conceptualization-and-logic-behind-the-ontology)
-* [4. Classes definition](#classes-definition)
+* [1. Introduction](##1.-introduction) 
+* [2. Overview](##2.-overview) 
+* [3. Conceptualization and logic behind the ontology](##3.-conceptualization-and-logic-behind-the-ontology)
+* [4. Classes definition](##4.-classes-definition)
 * [5. Object properties (aka entity relationships)](#object-properties-(aka-entity-relationships))
 * [6. Data properties (aka attributes)](#data-properties-(aka-attributes))
 * [7. Constraints](#constraints) 
@@ -20,7 +20,7 @@
 
 ## 2. Overview
 
-### 2.1. Ontology mockup
+### 2.1. Ontology design mockup
 A mockup for the proposed ontology design has been created using excalidraw and can be accessed [here](https://excalidraw.com/#room=ab47f46f93e3c44add0a,JJYUaB1o810ZWsoHbxpeyQ). Below is an image of the mockup.
 
 ![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/8012e43ad10120e09f543e5128d263a9bcd59545/src/Ontology/Design/final%20ontology%20designX3.png)
