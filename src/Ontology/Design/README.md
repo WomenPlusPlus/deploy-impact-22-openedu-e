@@ -4,16 +4,14 @@
 * [2. Overview](#2-overview) 
 * [3. Conceptualization and logic behind the ontology design](#3-conceptualization-and-logic-behind-the-ontology-design)
 * [4. Classes definition](#4-classes-definition)
-* [5. Object properties (aka entity relationships)](#5-object-properties-(aka-entity-relationships))
-* [6. Data properties (aka attributes)](#6-data-properties-(aka-attributes))
+* [5. Object properties (aka entity relationships)](#5-object-properties-aka-entity-relationships)
+* [6. Data properties (aka attributes)](#6-data-properties-aka-attributes)
 * [7. Constraints](#7-constraints) 
 * [8. Implementation of the Ontology](#8-implementation-of-the-ontology)
 * [9. Testing the ontology](#9-testing-the-ontology)
 * [10. Multilingual Support](#10-multilingual-support)
-* [11. Development Tools](#11-development-tools)
 * [12. Suggestions for future expansion](#12-suggestions-for-future-expansion)
-* [13. Languages](#13-languages)
-* [14. Ontology files](#14-Ontology-file)
+* [13. Languages](#13-Resources-and-links)
 
 
 ## 1. Introduction
@@ -241,16 +239,70 @@ In the table below, class attributes in the new ontology and their definitions a
 
 ## 7. Constraints
 
+Here we list the constraints (also called restrictions) in the new ontology.
+
+Class Resource:
+- has **Exactly 1** id
+- has **Excatly 1** title
+- has **Some** uploader
+- has **Some** link
+- has **Exactly 1** description
+- has **Min 1** language of content
+- has **Some** license
+- has **Min 1** topic
+- has **Min 1** educational level
+- has **Min 1** key competency
+- has **Some** accessibilty features
+
+Class Dynamic content:
+- has **Some** attendance form
+- has **Some** Country location
+- has **Some** start date
+- has **Some** recurrence
+- has **Some** duration
+
+Class Trainings & Workshops:
+- has **Min 1** difficulty level
+
+Class Guides & Tutorials: 
+- has **Min 1** difficulty level
+
+Class Collection:
+- is group of **Min 2** resources
+
+Class **User**
+- has **Exactly 1** id
+- has **Exactly 1** name
+- has **Exactly 1** email address
+
+Class **User profile**
+- is linked to **Exactly 1** user
+- has **Some** country location
+
+Class **Institution**
+- has **Exactly 1** id
+- has **Exactly 1** name
+- has **Exactly 1** email address
+
+Class **Institution profile**
+- is linked to **Exactly 1** institution
+- has **Some** country location
+- has **Some** link
+- has **Some** description
+
+
 ## 8. Implementation of the ontology 
 
-After the initial step of conceptualizing and creating a mockup for the ontology, we looked into tools to implement it. We decided to use Protégé, an ontology development tool developed by Stanford university. Protégé is a well-developed and supported user-friendly interface for creating and editing ontologies with full support for the OWL 2 Web Ontology Language. A good starting point for us was reading the Ontology development 101 [guide by Stanford university](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf). Another important guide was reading and referring to [this practical guide](https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view) to building ontologies in Protégé, which details building the famous Pizza ontology in Protégé.
-We used Protégé version 5.5 which the latest version to date. 
-An important feature of Protégé is the Reasoner. The Reasoner is a tool that when activated, checks the ontology for inconsistencies and makes inferences based on the current state of the ontology. 
+After conceptualizing and creating a mockup for the ontology, we looked into tools to implement it and create instances. We decided to use Protégé, an ontology development tool developed by Stanford university. A good starting point for us was reading the Ontology development 101 [guide by Stanford university](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf). Another important guide was reading and referring to [this practical guide](https://drive.google.com/file/d/1A3Y8T6nIfXQ_UQOpCAr_HFSCwpTqELeP/view) to building ontologies in Protégé, which details building the famous Pizza ontology.
+
+Why Protégé?
+
+- Well-developed and supported
+- User-friendly interface for creating and editing ontologies
+- Has full support for the OWL 2 Web Ontology Language
+- An important feature of Protégé is the **Reasoner**. The Reasoner is a tool that when activated, checks the ontology for inconsistencies and makes inferences based on the current state of the ontology. 
+
 After creating the necessary elements of the ontology; namely classes and subclasses, object properties (aka relationships), and data properties (aka attributes), defining constraints and specifying data types, we created instances for 26 of the current content uploaded on opened.ch. In addition to mapping what is already present on openedu to the current ontology, we also added additional metadata for uploaded resources that are now enabled by the new ontology design. We also created instances for institutions and their associated profiles and linked them to instances of resources through the hasUploader and isUploadedBy object properties. 
-
-**Enumerated Classes**
-Protégé offers the concept of enumerated classes, which are classes that are limited to and only to a set of individuals, please refer to the relevant content in the abovementioned links. We used these classes for concepts like key competencies, skills, languages, knowledge topics… etc
-
 
 
 ## 9. Testing the ontology
@@ -263,12 +315,10 @@ For ease of identification of these resources, the corresponding instances creat
 ![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/a843806ad2728a738a37dbcc79b70cfdc81972e0/src/Ontology/Design/test_resource4.png)
 
 
-
-This was also an opportunity to showcase a scenario where the uploader is an individual and not an institution. For the current OpenEdu content, we affiliated each resource to the institution that created it, e.g., Wikimedia foundation, University of Zurich, Wikimedia Germany etc., however, when implementing the 10 test resources into Protégé, we created a user (a member of our team), created metadata for their hypothetical user profile details, and affiliated the test instances to them. 
+This was also an opportunity to showcase a scenario where the uploader is an individual and not an institution. For the *current* OpenEdu content, we affiliated each resource to the institution that created it, e.g., Wikimedia foundation, University of Zurich, Wikimedia Germany etc., however, when implementing the *10 test resources* into Protégé, we created a user (a member of our team), created metadata for their hypothetical user profile details, and affiliated the test instances to them. 
 
 
 ![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/user.png)
-
 
 
 
@@ -277,16 +327,21 @@ This was also an opportunity to showcase a scenario where the uploader is an ind
 
 
 
-## Tools 
+## 12. Suggestions for future expansion
+
+
+
+## 13.Resources and links
+
+### Tools used
 
 * Ontology Editor: [Protégé 5.5.0](https://protege.stanford.edu/products.php#desktop-protege)
 
-## Languages
+### Languages
 
 * [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/)
 * [RDF (Resource Description Framework)](https://en.wikipedia.org/wiki/Resource_Description_Framework) 
 
-
-## Ontology files
+### Ontology files
 
 
