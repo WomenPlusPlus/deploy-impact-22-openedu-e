@@ -11,7 +11,7 @@
 * [9. Testing the ontology](#9-testing-the-ontology)
 * [10. Multilingual Support](#10-multilingual-support)
 * [12. Suggestions for future expansion](#12-suggestions-for-future-expansion)
-* [13. Resources and tools](#13-Resources-and-links)
+* [13. Resources and tools](#13-Resources-and-tools)
 
 
 ## 1. Introduction
@@ -331,7 +331,7 @@ This was also an opportunity to showcase a scenario where the uploader is an ind
 
 
 
-## 13.Resources and links
+## 13. Resources and tools
 
 ### Tools used
 
