@@ -142,20 +142,22 @@ This class has been added to account for a possible extension of the platform (a
 
 ## 4. Classes definition
 
+In the table below, classes in the new ontology and their definitions are listed. 
+
 | Class| Description| 
 | ------------- | ------------------------------------------- |
 | Resource | Any content that is uploaded to the platform|                             
-| Dynamic content | content that is more dynamic in nature and mostly has a temporal aspect | 
-| Aiding tools and reference material | facilitator content such as tools, guiding material and open-content resources |
-| Projects | ongoing or legacy projects and collaborations |
-| Events & Contests | past, present and future events and contests |
-| Trainings & Workshops | past, present and future trainings and workshops |
-| Guides & Tutorials | explanatory guides and tutorials|
-| Open content online resources | an online resource offering content that is open to public use |
-| Tools | open access aiding tools |
+| Dynamic content | Content that is more dynamic in nature and mostly has a temporal aspect | 
+| Aiding tools and reference material | Facilitator content such as tools, guiding material and open-content resources |
+| Projects | Ongoing or past or future projects and collaborations |
+| Events & Contests | Ongoing or past or future events and contests |
+| Trainings & Workshops | Ongoing or past or future trainings and workshops |
+| Guides & Tutorials | Open access explanatory guides and tutorials|
+| Open content online resources | An online resource offering content that is open to public use |
+| Tools | Open access aiding tools |
 | Institution | An educational institution or foundation that could offer content to the openedu platform |
 | Educational institution | Institutions such as and not limited to schools and universities |
-| Foundation | nonprofit corporation or a charitable trust that makes grants to organizations, institutions, or individuals for charitable purposes |
+| Foundation | Nonprofit corporation or a charitable trust that makes grants to organizations, institutions, or individuals for charitable purposes |
 | Institution profile | The detailed profile of an institution |
 | User | An individual using the openedu platform either to upload content or for learning purposes |
 | User profile | The detailed profile of a user |
@@ -174,6 +176,7 @@ This class has been added to account for a possible extension of the platform (a
 
 ## 5. Object properties (aka entity relationships)
 
+In the table below, relationships between classes in the new ontology and their definitions are listed together with subject and object classes defined by the relationship. 
 
 | Object Property | Domain (subject) Class | Range (object) Class | Description | 
 | ------------- | ------------------------ | -------------------- | ----------- |
@@ -200,6 +203,9 @@ This class has been added to account for a possible extension of the platform (a
 
 
 ## 6. Data properties (aka attributes)
+
+In the table below, class attributes in the new ontology and their definitions are listed together with their subject classes and the datatype of the attribute. 
+
 
 | Data Property | Domain (subject) Class | Range (object) Datatype | Description | 
 | ------------- | ---------------------- | ----------------------- | ----------- |
