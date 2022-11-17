@@ -11,7 +11,7 @@
 * [9. Testing the ontology](#9-testing-the-ontology)
 * [10. Multilingual Support](#10-multilingual-support)
 * [12. Suggestions for future expansion](#12-suggestions-for-future-expansion)
-* [13. Languages](#13-Resources-and-links)
+* [13. Resources and tools](#13-Resources-and-links)
 
 
 ## 1. Introduction
