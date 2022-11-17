@@ -32,6 +32,12 @@ We followed the consensus sequence for creating an ontology shown below, adaptin
 
 In the following sections, we present an overview of our team`s ontology design, followed by a detailed walkthrough through the logical steps that led to that design. We define Classes, properties, relationships and contraints in sections 4-7, followed by details regarding the impelementation and testing of the ontology design in Protégé. Futhermore, we describe our approach for multilingual support which as an important aspect of OpenEdu which caters mainly to Switzerland where multiple languages are spoken.
 
+In this "Design" folder you will find:
+- [The owl file of the unifire ontology](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/61864779c96ed6337c2dbda8a131aca9cae37c1e/src/Ontology/Design/unifire-openedu.owl)
+- [Ecalidraw file for the ontology design mockup](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/61864779c96ed6337c2dbda8a131aca9cae37c1e/src/Ontology/Design/final%20ontology%20design.excalidraw)
+- [The metadata schema of current openedu content](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/61864779c96ed6337c2dbda8a131aca9cae37c1e/src/Ontology/Design/openedu_metadata_schema.xlsx)
+- Images for your reference and demo purposes
+
 
 ## 2. Overview
 
