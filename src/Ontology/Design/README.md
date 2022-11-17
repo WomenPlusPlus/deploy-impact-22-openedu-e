@@ -1,10 +1,10 @@
 ## Contents
 
-* [1. Introduction](#introduction) 
-* [2. Overview](#overview) 
-* [3. Conceptualization and logic behind the ontology](#conceptualization-and-logic-behind-the-ontology)
-* [4. Classes definition](#classes-definition)
-* [5. Object properties (aka entity relationships)](#object-properties-(aka-entity-relationships))
+* [1. Introduction](#1introduction) 
+* [2. Overview](#2overview) 
+* [3. Conceptualization and logic behind the ontology design](#3conceptualization-and-logic-behind-the-ontology-design)
+* [4. Classes definition](#4classes-definition)
+* [5. Object properties (aka entity relationships)](#5object-properties-(aka-entity-relationships))
 * [6. Data properties (aka attributes)](#data-properties-(aka-attributes))
 * [7. Constraints](#constraints) 
 * [8. Implementation of the Ontology](#implementation-of-the-ontology)
