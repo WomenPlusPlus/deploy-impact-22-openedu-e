@@ -270,21 +270,21 @@ Class Guides & Tutorials:
 Class Collection:
 - is group of **Min 2** resources
 
-Class **User**
+Class User
 - has **Exactly 1** id
 - has **Exactly 1** name
 - has **Exactly 1** email address
 
-Class **User profile**
+Class User profile
 - is linked to **Exactly 1** user
 - has **Some** country location
 
-Class **Institution**
+Class Institution
 - has **Exactly 1** id
 - has **Exactly 1** name
 - has **Exactly 1** email address
 
-Class **Institution profile**
+Class Institution profile
 - is linked to **Exactly 1** institution
 - has **Some** country location
 - has **Some** link
