@@ -318,10 +318,6 @@ For ease of identification of these resources, the corresponding instances creat
 This was also an opportunity to showcase a scenario where the uploader is an individual and not an institution. For the *current* OpenEdu content, we affiliated each resource to the institution that created it, e.g., Wikimedia foundation, University of Zurich, Wikimedia Germany etc., however, when implementing the *10 test resources* into Protégé, we created a user (a member of our team), created metadata for their hypothetical user profile details, and affiliated the test instances to them. 
 
 
-![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/user.png)
-
-
-
 
 ## 10. Multilingual Support
 
