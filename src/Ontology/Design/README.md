@@ -4,18 +4,35 @@
 * [2. Overview](#2-overview) 
 * [3. Conceptualization and logic behind the ontology design](#3-conceptualization-and-logic-behind-the-ontology-design)
 * [4. Classes definition](#4-classes-definition)
-* [5. Object properties (aka entity relationships)](#5object-properties-(aka-entity-relationships))
-* [6. Data properties (aka attributes)](#data-properties-(aka-attributes))
-* [7. Constraints](#constraints) 
-* [8. Implementation of the Ontology](#implementation-of-the-ontology)
-* [9. Testing the ontology](#testing-the-ontology)
-* [10. Multilingual Support](#multilingual-support)
-* [Development Tools](#tools-used-during-development)
-* [Languages](#languages)
-* [Ontology files](#Ontology-file)
-* [Suggestions for future expansion](#suggestions-for-future-expansion)
+* [5. Object properties (aka entity relationships)](#5-object-properties-(aka-entity-relationships))
+* [6. Data properties (aka attributes)](#6-data-properties-(aka-attributes))
+* [7. Constraints](#7-constraints) 
+* [8. Implementation of the Ontology](#8-implementation-of-the-ontology)
+* [9. Testing the ontology](#9-testing-the-ontology)
+* [10. Multilingual Support](#10-multilingual-support)
+* [11. Development Tools](#11-development-tools)
+* [12. Suggestions for future expansion](#12-suggestions-for-future-expansion)
+* [13. Languages](#13-languages)
+* [14. Ontology files](#14-Ontology-file)
+
 
 ## 1. Introduction
+
+In this ReadMe, we present the workflow on the main requirement by the PO: **designing an ontology for OpenEdu**. 
+
+An ontology is a set of concepts and categories in a subject area or domain that possesses the properties and relations between them. Recently, there has been an uptake of expressing ontologies using ontology languages such as the Web Ontology Language (OWL). OWL not only assists in representing rich and complex knowledge about things and the relations between them, it also offers detailed, consistent, and meaningful distinctions between classes, properties, and relationships.
+
+We followed the consensus sequence for creating an ontology shown below, adapting it to our use case when needed:
+
+1. Determine the domain and scope of the ontology.
+2. Consider reusing existing ontologies.
+3. Enumerate important terms.
+4. Define the classes & class hierarchy.
+5. Define the properties of classes.
+6. Define the facets of the slots.
+7. Create instances.
+
+In the following sections, we present an overview of our team`s ontology design, followed by a detailed walkthrough through the logical steps that led to that design. We define Classes, properties, relationships and contraints in sections 4-7, followed by details regarding the impelementation and testing of the ontology design in Protégé. Futhermore, we describe our approach for multilingual support which as an important aspect of OpenEdu which caters mainly to Switzerland where multiple languages are spoken.
 
 
 ## 2. Overview
@@ -31,7 +48,7 @@ The new ontology design consists of **26 classes** (out of which 16 are supercla
 
 ### 2.3. Taxonomy 
 
-The figure below shows the taxonomy of classes in the new ontology design.
+The figure below shows the hieratchy of classes in the new ontology design.
 
 ![alt text]( https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/50c9e3546fb738ea1c4dda1fd2612c2a85d3da85/src/Ontology/Design/taxonomy.png)
 
