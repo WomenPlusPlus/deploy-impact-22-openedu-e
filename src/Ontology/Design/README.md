@@ -304,7 +304,7 @@ Why Protégé?
 
 After creating the necessary elements of the ontology; namely classes and subclasses, object properties (aka relationships), and data properties (aka attributes), defining constraints and specifying data types, we created instances for 26 of the current content uploaded on opened.ch. In addition to mapping what is already present on openedu to the current ontology, we also added additional metadata for uploaded resources that are now enabled by the new ontology design. We also created instances for institutions and their associated profiles and linked them to instances of resources through the hasUploader and isUploadedBy object properties. 
 
-The owl file can be found [here](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/f4cf4ae04d62fb538f1a14756051dfe78cfbcde0/src/Ontology/Design/unifire-openedu.owl)
+The owl file can be found in our team`s drive [here](https://drive.google.com/drive/folders/1wugUEk349L0jEY83KCe1mCxgEdb7oQwE).
 
 ## 9. Testing the ontology
 
