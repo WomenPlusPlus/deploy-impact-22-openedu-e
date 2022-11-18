@@ -338,6 +338,11 @@ To test this approach a proof of concept app was developed. It gives the user th
 
 ## 12. Suggestions for future expansion
 
+We envision several possibilities for future expansion of the ontology to make it more *recommender-based*. As the platform grows and develops a base of users, unifire`s ontology design allows for these users to identify as either **learners** or **educators**. A recommender system can then recommend a different learning paths for the **learner** user. This would be based on their browsing activity, content download and profile information if they have one on the platform. This idea is conceptualized [here](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/develop/src/Ontology/Design/Patterns)  
+
+Another future implementation would be putting a rating and commenting system for content on the platform. Users will be able to add comments and star ratings for content on OpenEdu. This allows interaction which in turn makes the platform more dynamic as it allows users to interact with each other and share their opinions. Star rating can be used as a filtering method in the future.
+
+Another idea would be to implement a badge system for uploaders whether users or institutions, that reflect their activity on the platform and the quality of the content they upload based on both the judgement of moderators and the feedback from other users on the platform. The badge will show on the respective uploader`s profile.
 
 
 ## 13. Resources and tools
@@ -351,6 +356,5 @@ To test this approach a proof of concept app was developed. It gives the user th
 * [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/)
 * [RDF (Resource Description Framework)](https://en.wikipedia.org/wiki/Resource_Description_Framework) 
 
-### Ontology files
 
 
