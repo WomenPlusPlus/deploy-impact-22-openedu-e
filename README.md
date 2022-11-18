@@ -19,17 +19,11 @@ Scrapy settings:
 - ScraperAPI: 
 The API is available with a Free plan that allows to use 1,000 credits per month.
 
-
-External Documentation: 
-- ScraperAPI: https://www.scraperapi.com/documentation/python/ 
-- Refine web search with advanced operators: https://support.google.com/websearch/answer/2466433?visit_id=638043801751520505-2327133070&p=adv_operators&hl=en&rd=1
-- Scrapy: 
-
 Input configuration
 -query.csv
 -api_key.txt
 
-##Usage
+## Usage
 After installing packages (scrapy), simply run:
 ```
 scrapy crawl google -o data/path-to-output.json 
@@ -40,7 +34,7 @@ to crawl the web pages.
 The extracted data will be stored in the specified file path in a CSV format (json format?).
 
 
-##Extracted Data
+## Extracted Data
 You can see the data scraped in serp.csv(data/X.json). 
 This is the result of running with the default setting and the categories specified in src/google_search_quer/query.csv.
 
@@ -57,8 +51,14 @@ Statistics:
 topics?
 web sites? 
 
-##Customizations
+## Customizations
 
 
 Pages to crawl for each category
 You can choose how many pages to crawl for each category by changing the pages parameter in the get_urls() method in the same file. The default is 30 pages. Each page contains 30 articles.
+
+
+## External Documentation: 
+- ScraperAPI: https://www.scraperapi.com/documentation/python/ 
+- Refine web search with advanced operators: https://support.google.com/websearch/answer/2466433?visit_id=638043801751520505-2327133070&p=adv_operators&hl=en&rd=1
+- Scrapy: 
