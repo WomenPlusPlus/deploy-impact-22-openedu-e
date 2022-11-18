@@ -27,6 +27,7 @@ This section discusses the prepared product listing features and proposition for
 ## 📝 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
+- [Repo structure](#repostructure)
 
 ## 🧐 Overview <a name = "overview"></a>
 The above folders documents components of our solution: 
@@ -47,3 +48,29 @@ The above folders documents components of our solution:
 - Class: collection
 - inter-connect
 - Multinlingual Support for Ontology with Django plugin: mockup of a website
+
+
+## Repo structure <a name="repostructure"></a>
+
+The folder tree of src: 
+
+* [Architecture/](.\src\Architecture)
+  * [Backend/](.\src\Architecture\Backend)
+  * [UI Design/](.\src\Architecture\UI Design)
+* [Data/](.\src\Data)
+  * [Database/](.\src\Data\Database)
+  * [Datasets/](.\src\Data\Datasets)
+  * [Scraped Data/](.\src\Data\Scraped Data)
+* [NLP/](.\src\NLP)
+  * [Content Analysis/](.\src\NLP\Content Analysis)
+  * [Content Moderation/](.\src\NLP\Content Moderation)
+  * [Content Recommendation/](.\src\NLP\Content Recommendation)
+  * [Content Search/](.\src\NLP\Content Search)
+  * [Content Upload/](.\src\NLP\Content Upload)
+  * [README.md](.\src\NLP\README.md)
+* [Ontology/](.\src\Ontology)
+  * [Access/](.\src\Ontology\Access)
+  * [Design/](.\src\Ontology\Design)
+  * [Multilingual Support/](.\src\Ontology\Multilingual Support)
+  * [README.md](.\src\Ontology\README.md)
+* [README.md](.\src\README.md)
