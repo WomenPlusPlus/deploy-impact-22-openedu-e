@@ -27,24 +27,21 @@ Different schools and universities would love to benefit from the advantages to 
 </p>
 
 ## 📝 Table of Contents
-- [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
+- [Solution Overview](#solution_overview)
+- [Features](#features)
+- [Special Features](#special_features)
 - [Dependencies / Limitations](#limitations)
 - [Future Scope](#future_scope)
 - [Setting up a local environment](#getting_started)
 - [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Technology Stack](#tech_stack) 
 
-## 🧐 Problem Statement <a name = "problem_statement"></a>
-
-
-## 💡 Idea / Solution <a name = "idea"></a>
+## 🧐 Solution Overview <a name = "solution_overview"></a>
 The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
 
+
+## 💡 Features <a name = "features"></a>
 Our value proposition:
 
 - Upload
@@ -57,6 +54,11 @@ Our value proposition:
 - Collaboration of Authors
 - Class: collection
 - inter-connect
+
+
+## 💡💡 Special Features <a name = "specialfeatures"></a>
+- Multinlingual Support for Ontology with Django plugin: mockup of a website
+
 
 ## Repository Structure: 
 The generic schema of folder is created as following:
@@ -82,32 +84,5 @@ These instructions will get you a copy of the project up and running on your loc
 and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 REQUIERMENT.TXT?
-Final scripts are written in Python. 
-Sonia - Django !
+Final scripts are written in Python.  
 !! * For requirements like install packages 
-
-
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## ⛏️ Built With <a name = "tech_stack"></a>
-- [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
-- [Figma](https://nodejs.org/en/) - Prototyping tool
-- Python 3.8
