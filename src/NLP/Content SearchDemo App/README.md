@@ -6,3 +6,6 @@ We built an experimental semantic search engine for the OpenEdu platform by buil
 The search engine is based on passing the text input from the search bar to a pretrained semantic transformer model (SBERT) that vectorizes it and calculates the cosine similarity of the query with respect to the SQL database fields 'short_description_en' and 'more_information_en' of all the resources available on the platform. Notice that these fields contain the resource description in English language.
 
 The `Search_engine_app_test.py` contains the experimental app described. In our test, for computational reasons, we adopted the semantic transformer model ‘paraphrase-albert-small-v2’ model. However, given the multi-language nature of a platform such as OpenEdu, we suggest the use of the multi-language model ‘paraphrase-multilingual-MiniLM-L12-v2’. In this way, the user can search through OpenEdu content by inputting queries in over 50 different languages and get meaningful results without changing anything else in the code we developed.
+### Resources
+- [Sentence-Transformers (SBERT)](https://www.sbert.net/index.html#)
+- [Streamlit](https://streamlit.io/)
