@@ -115,7 +115,10 @@ Limitation of the created product:
 
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
-- Data Architecture and Backend Development: the current solution includes the general recommendations and UML diagram of a relational DB mapped to the newly proposed ontology. 
+- Data Architecture and Backend Development: 
+Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
+The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
+
 - Ontology extensions:  For adopting additional content to OpenEdu.ch we created concepts of new classes and relationships which can be included to the ontology.
 - A/B Testing: 
 - NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
