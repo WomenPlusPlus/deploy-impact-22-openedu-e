@@ -85,17 +85,18 @@ Our value proposition:
 ## Repository Structure: 
 The generic schema of folders created for documentation is as following:
 - src: Codes and parametrization of the module.
-- doc: Descritpive documentation of the module.
+- doc: Descritpive documentation of the solution and presentation [to add].
 - test: Test experiment.  
 
 These three folders are then sub-divided into different modules, which include (depending on the presence of the relevant files):
-Architecture: 
-  Backned
-  Frontend: ux-ui desugn, user journeys, mockups, Figma website  
-data-science: ontology, NLP code
+- Data Architecture: it includes backend and frontend deliverables
+- Data: it includes current database content, used datasets and data scraping  
+- Ontology: 
+- NLP: AI-based features for semantic search, recommendations. 
 
-+ presentation: final presentation of 19 Nov 2022 with a demo of prototypes
-+licence.
+Moreover, please note: 
+- README.md
+- licence: GPL license.
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 - What are the dependencies of your project?
