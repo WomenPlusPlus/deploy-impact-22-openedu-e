@@ -1,5 +1,5 @@
 #  Moderation Flow
-## Introduction
+
 The below diagram shows the flow of the moderation system we propose. There are four stages included, which are license check, version check, Quality check, and similarity check.
 
 * License check:
