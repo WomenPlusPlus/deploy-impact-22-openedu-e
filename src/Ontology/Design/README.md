@@ -327,7 +327,13 @@ This was also an opportunity to showcase a scenario where the uploader is an ind
 
 
 ## 10. Multilingual Support
+When tasked with look at multilingual support, two very different options presented themselves. 
+One option was to develop multilingual support on the django website. Another option was to provide multilingual support to the ontology by adding an additional lexicon layer to it using something like [lemon](https://lemon-model.net/), a lexicon model for ontologies. While this approach is very interesting and allows to potentially extend an ontology to indefine languages, considering the scope of the project, the relatively limited size of the ontology, the time constraints and the skills of the teams it was decided to go with the first option.
 
+This sort of multilingual support requires additional fields added to the database to house the attributes in multiple languages. To do this seamlessly, the plug-in [django-parler](https://django-parler.readthedocs.io/en/stable/) was chosen as it creates new tables for the translated fields that can be accessed like regular attributes. It also allows for only some attributes of a class to be declared as translatable. This is important because only text fields, urls and media could need to be provided in multiple languages, and so it avoids needless duplication. 
+On the other hand, an enumerated class with a limited number of possible values also needs translation, because its values need to be visible in all available language by the end user, however the value itself is not different in the different languages. Let's take for example the class Key Competences. A project with Key Competence 'Digital' will have Key Competence 'Digital' in all languages, it just needs the label to be translated. This is done with gettext_lazy.
+
+To test this approach a proof of concept app was developed. It gives the user the chance to browse and upload resources in multiple languages. The code and a README file about the deployment can be found in the folder 'Ontology/Multilingual Support'
 
 
 ## 12. Suggestions for future expansion
