@@ -6,3 +6,6 @@ The `Duplicates_main.py` stores all the functions needed to execute the Similari
 Ideally, the script should be integrated in a Django upload form interface together with the other functionalities related to the Moderator board template.
 
 The `Duplicates_test.ipynb` shows a practical test of the functionality by using the current OpenEdu content available on the SQL database dump provided.
+
+## Resources
+- [SentenceTransformers (SBERT)](https://www.sbert.net/index.html#)
