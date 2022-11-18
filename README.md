@@ -54,6 +54,7 @@ Dispersion of useful resources in various places and huge difficulty with findin
 Upload of new resources is manual and complicated. 
 Moderation of the proposed content requires human action and fully manual analysis which hinders addition of bigger volume of resources.
 
+
 ## 💡 Idea / Solution <a name = "idea"></a>
 The prepared solution is a knowledge management and discovery tool for OpenEdu.ch.
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
@@ -64,13 +65,14 @@ Our product includes elements and workflows of streamlined uploading process, as
 </p>
                    
 Our value proposition:
-- Versatile Ontology for Knowledge Management and fostering collaboration between different users 
-- Mulitlingual Ontology Support built with Django 
+- Versatile Ontology for Knowledge Management for easier browsing, searching and fostering collaboration between educators
+- Mulitlingual Ontology Support for enabling navigating materials created and described in foreign languages 
 - AI Engine enabling AI features (for Moderation and Upload) 
-- Moderation Board Workflow
-- Uploading Process 
-- Semantic Search
-- New Relevant Content sraping
+- Moderation Board Workflow designed for more efficient approval process of the new content 
+- Uploading Process simlified and facilitated by organized forms and automatic functionalities
+- AI-based features facilitating the analysis of the new content and its moderation, as well as linking related materials 
+- Semantic Search for more relevant
+- Suggesting new Relevant Content for addition to the OpenEdu 
 - Figma Prototype with UI/UX Design.
 
 <p align="center">
@@ -81,95 +83,19 @@ Our value proposition:
 
 
 ## Repository Structure: 
-The generic schema of folder is created as following:
+The generic schema of folders created for documentation is as following:
 - src: Codes and parametrization of the module.
 - doc: Descritpive documentation of the module.
 - test: Test experiment.  
 
-Tree:
-1.	README.md: Overall Project Statement 
-2.	src → Core modules
-    ○	Format: Folders + README.md
-    ○	Content:
-    ■	Folders → Scripts
-    ■	Data
-      ■	Datasets
-      ■	Database schema
-      ■	Data Scraping
-      ■	README.md
-    ■	README.md 
-    ■	Architecture
-      ■	Overall Architecture
-      ■	UI - Backend/Frontend
-      ■	Flowcharts/Diagrams
-      ■	SQL/NoSQL
-      ■	Ontology mapping
-    ■	Ontology
-      ■	README.md
-      ■	Contents
-      ■	Intro
-        ■	Abstract
-      ■	Use Case
-      ■	Explain Folders contents
-      ■	Design
-      ■	README.md
-      ■	Overview of the classes → nice image of the design conceptual map
-      ■	Tools
-      ■	OWL/RDF/JSON files
-      ■	metadata.txt
-      ■	Patterns
-      ■	Navigation
-      ■	Access/Read and Edit
-      ■	Visualization
-      ■	Documentation
-      ■	Querying
-    ■	Testing and Evaluation
-      ■	Ontology Competency Questions 
-    ■	NLP Pipeline, # Topics Elaborated
-    ■	Topics prediction and Similarity Search → serve for the recommendation later and deduplication
-      ■	README.md
-      ■	Scripts/Experiments
-      ■	Recommendation
-      ■	README.md
-    ■	Upload
-      ■	README.md: Make it smoother, how?
-      ■	Filters Suggestions!
-      ■	Description → Summarization
-      ■	Language detection
-    ■	Moderation
-      ■	README.md
-      ■	License Checker
-      ■	Link Checker
-      ■	Content moderation
-      ■	Text
-      ■	Image
-      ■	Duplicates Discovery
-      ■	Ontology Learning Experiments
-      ■	README.md
-    ■	Topics clustering (before)
-      ■	Multi-class multi-label classification (once classes are defined)
-      ■	README.md
-    ■	ML (Optional)
-      ■	README.md 
-    ■	Additional AI Features (Within each folder or separately, we’ll decide!)
-      ■	Important Note: Show how modules/folders:
-      ■	connect with the project → user-based → map user journey
-      ■	We’re telling a story! key points + our answers below!
-    ■	Upload
-      ■	Make process smoother
-    ■	Moderation
-    ■	  Quality/policy Check
-    ■	content Search:
-    ■	use content - elaborate projects
-    ■	Search Engine
-    ■	Collaboration of Authors
-    ■	Class: collection
-    ■	inter-connect
-    3.	test
-    4.	docs
-    5.	LICENSE file
+These three folders are then sub-divided into different modules, which include (depending on the presence of the relevant files):
+Architecture: 
+  Backned
+  Frontend: ux-ui desugn, user journeys, mockups, Figma website  
+data-science: ontology, NLP code
 
-
++ presentation: final presentation of 19 Nov 2022 with a demo of prototypes
++licence.
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 - What are the dependencies of your project?
@@ -209,10 +135,10 @@ Add notes about how to use the system.
 - RDF (Resource Description Framework)
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@slashlan](https://github.com/slashlan)
-- [@s-vigolo](https://github.com/s-vigolo)
-- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
-- [@cyyang50](https://github.com/cyyang50)
-- [@YasmineM311](https://github.com/YasmineM311)
-- [@gildafc](https://github.com/gildafc)
-- [@annopol](https://github.com/annopol)
+- [@slashlan](https://github.com/slashlan), Data Scientist, Deputy PM 
+- [@s-vigolo](https://github.com/s-vigolo), Backend Developer
+- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni), Data Scientist
+- [@cyyang50](https://github.com/cyyang50), Data Scientist 
+- [@YasmineM311](https://github.com/YasmineM311), Data Scientist
+- [@gildafc](https://github.com/gildafc), Data Scientist, Team Satellite
+- [@annopol](https://github.com/annopol), Data Scientist, PM
