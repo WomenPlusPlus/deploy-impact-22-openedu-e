@@ -1,16 +1,21 @@
 # deploy-impact-22-openedu-e
-Repository for Team openedu-e for deploy(impact) 2022
+Repository for Team OpenEdu-E for deploy(impact) 2022
 
 <p align="center">
   <a href="" rel="noopener">
+ <img src="https://user-images.githubusercontent.com/37207832/202691843-84df34e0-180e-40ee-b70d-5a2b37bb5ea2.png" alt="Group logo">
  <img src="https://user-images.githubusercontent.com/37207832/199510757-5fde0b18-bd73-49bc-8c32-1a8827dcdf81.png" alt="Project logo">
- </a>
+
+
+</a>
 </p>
 <h3 align="center">OpenEdu.ch</h3>
 
 <div align="center">
 
-  [![OpenEdu.CH](https://img.shields.io/badge/project-name-orange.svg)](http://openedu.ch) 
+  [![OpenEdu.CH](https://img.shields.io/badge/project-OpenEdu-orange.svg)](http://openedu.ch) 
+  [![Unifire](https://img.shields.io/badge/team-Unifire-orange.svg)](http://openedu.ch) 
+  [![Developing](https://img.shields.io/badge/status-Dev-orange.svg)](http://openedu.ch) 
 
 </div>
 
@@ -62,8 +67,8 @@ The generic schema of folder is created as following:
 - doc: Descritpive documentation of the module.
 - test: Test experiment.  
 
-/? links to the specific folders to show the structure? 
-1.	README.md (Template Anna to fill out)
+Tree:
+1.	README.md: Overall Project Statement 
 2.	src → Core modules
     ○	Format: Folders + README.md
     ○	Content:
@@ -155,9 +160,9 @@ The generic schema of folder is created as following:
 - Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
 appropriate, describe how these limitations could point to the need for further research.
 
-Limitations:
+Limitation of the created product:
 - Enhance current mvp into a finite product
-- Data Architecture with dtaabase schema, webservices and scalability solutions
+- Data Architecture solution: The solution does not cover database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
 - 
 
 
@@ -205,6 +210,7 @@ Add notes about how to use the system.
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
 - [Figma](https://nodejs.org/en/) - Prototyping tool
+- Python 3.8
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@slashlan](https://github.com/slashlan)
