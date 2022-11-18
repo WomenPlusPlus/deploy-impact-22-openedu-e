@@ -11,7 +11,7 @@
 ## Upload
 
 ## Moderation
-[This folder](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/Restructure/src/NLP/Moderation) groups all the NLP functionalities we developed for the moderation system of the OpenEdu platform.
+[This folder](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/Restructure/src/NLP/Moderation) groups all the NLP functionalities we developed for the moderation system of the OpenEdu platform such as License Checker, Link Checker, Content moderation and Similarity check.
 
 ## Ontology Learning Experiments
 
