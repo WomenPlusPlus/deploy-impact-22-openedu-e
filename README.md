@@ -26,7 +26,7 @@ Input configuration
 ## Usage
 After installing packages (scrapy), simply run:
 ```
-scrapy crawl google -o data/path-to-output.json 
+scrapy crawl google -o serps.csv 
 
 ```
 to crawl the web pages.
@@ -52,13 +52,13 @@ topics?
 web sites? 
 
 ## Customizations
-
-
-Pages to crawl for each category
+- Pages to crawl for each category
 You can choose how many pages to crawl for each category by changing the pages parameter in the get_urls() method in the same file. The default is 30 pages. Each page contains 30 articles.
-
 
 ## External Documentation: 
 - ScraperAPI: https://www.scraperapi.com/documentation/python/ 
 - Refine web search with advanced operators: https://support.google.com/websearch/answer/2466433?visit_id=638043801751520505-2327133070&p=adv_operators&hl=en&rd=1
 - Scrapy: 
+
+## Recognition: 
+https://www.scraperapi.com/blog/scrape-data-google-search-results/
