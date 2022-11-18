@@ -1,4 +1,4 @@
-#  Unifire Ontology ![FireGIF](https://user-images.githubusercontent.com/95468771/202821211-3e6fef6e-4270-4ed0-b59c-58e853d2dcdf.gif)
+#  Unifire Ontology 
 
 ## Contents
 In this folder we present the work done on the ontology. 
