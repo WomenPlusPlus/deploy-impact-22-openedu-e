@@ -210,7 +210,13 @@ Add notes about how to use the system.
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
 - [Figma](https://nodejs.org/en/) - Prototyping tool
+- Ontology Editor: Protégé 5.5.0
+- Django plugin [Sonia]
+
+## Languages
 - Python 3.8
+- OWL 2 Web Ontology Language
+- RDF (Resource Description Framework)
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@slashlan](https://github.com/slashlan)
