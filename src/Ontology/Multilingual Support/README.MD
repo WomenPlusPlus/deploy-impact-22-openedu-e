@@ -5,6 +5,8 @@ More in detail, django-parler creates additional fields for attributes that are 
 
 The app contains templates to a homepage with the list of resources, two forms to upload resources (one with the initial information in one language choice of the user and a second one to add the fields in additional languages), a thank you for your submission page and a page to see the single resource in detail.
 
+For more informations about the design and choices made, please refer to the Multilingual Support section of the README file in Ontology/Design/
+
 The app itself is in the '/forms' folder.
 I have also included my settings.py file and '/locale' folder to help in case of confusion.
 
