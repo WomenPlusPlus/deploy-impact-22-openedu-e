@@ -132,7 +132,8 @@ Add notes about how to use the system.
 - [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 - Ontology Editor: Protégé 5.5.0
-- Django plugin Django-parler.
+- Django plugin Django-parler
+- Python 3.9.8
 
 ## Languages
 - Python 3.8
