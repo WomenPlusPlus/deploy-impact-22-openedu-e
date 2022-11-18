@@ -25,23 +25,17 @@ This section discusses the prepared product listing features and proposition for
 </p>
 
 ## 📝 Table of Contents
-- [Solution Overview](#solution_overview)
+- [Overview](#overview)
 - [Features](#features)
-- [Special Features](#special_features)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack) 
 
-## 🧐 Solution Overview <a name = "solution_overview"></a>
-The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
-Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
-
+## 🧐 Overview <a name = "overview"></a>
+The above folders documents components of our solution: 
+- Data:
+- Data Architecture: ontology: Meant for all documents relating to the creation of the ontology
+- NLP: All documents related to AI-based features
+- Ontology: 
 
 ## 💡 Features <a name = "features"></a>
-Our value proposition:
-
 - Upload
 - Make process smoother
 - Moderation
@@ -52,32 +46,4 @@ Our value proposition:
 - Collaboration of Authors
 - Class: collection
 - inter-connect
-
-
-## 💡💡 Special Features <a name = "specialfeatures"></a>
 - Multinlingual Support for Ontology with Django plugin: mockup of a website
-
-
-## Repository Structure: 
-The generic schema of folder is created as following:
-- src: Codes and parametrization of the module.
-- doc: Descritpive documentation of the module.
-- test: Test experiment.  
-
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
-appropriate, describe how these limitations could point to the need for further research.
-
-Limitation of the created product:
-- Enhance current mvp into a finite product
-- Data Architecture solution: The solution does not cover database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
-- 
-
-## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development 
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
