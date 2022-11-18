@@ -1,5 +1,4 @@
 # deploy-impact-22-openedu-e
-Repository for Team OpenEdu-E for deploy(impact) 2022
 
 <p align="center">
   <a href="" rel="noopener">
@@ -33,7 +32,6 @@ Different schools and universities would love to benefit from the advantages to 
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
