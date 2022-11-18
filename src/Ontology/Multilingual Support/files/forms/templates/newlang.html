@@ -1,0 +1,37 @@
+{% load static %}
+{% load i18n %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+
+<div class="container">
+
+
+  {% get_current_language as CURRENT_LANGUAGE %}
+  {% get_available_languages as AVAILABLE_LANGUAGES %}
+  {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+  <div class="languages">
+    <p>{% trans "Language" %}:</p>
+    <ul class="languages">
+      {% for language in languages %}
+        <li style="display:inline;padding: 16px">
+          <a href="/{{ language.code }}/{{pk}}/newlang"
+            {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
+            {{ language.name_local }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <form method="post">
+      {% csrf_token %}      
+      <table style="text-align: left;">
+      {{ form.as_table }}
+      </table>
+      <input type="submit" value="Submit">
+  </form>
+
+</div>
