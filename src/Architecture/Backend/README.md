@@ -65,7 +65,7 @@ Class” of property.
 
 
 ## Database architecture modelling
-Due to time constraints, developing an actual database backend was not feasible. However, the database architecture was modeled into a UML diagram as seen below using [draw io](https://www.diagrams.net/blog/move-diagrams-net).
+Due to time constraints, developing an actual database backend was not feasible. However, the database architecture was modeled into a UML diagram as seen below using [draw io](https://www.diagrams.net/blog/move-diagrams-net). The table is green if it`s a superclass, yellow if it`s a 1st level subclass and blue if it`s a 2nd level subclass. Purple tables are for multi-value object properties.  
 
 ![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/6b2a97d7737a54773f7556d527f41738f1ace571/src/Architecture/Backend/ontology_mapping_to_RDB_database_schema_UML_diagram.png)
 
