@@ -1,0 +1,41 @@
+{% load static %}
+{% load i18n %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+
+<div class="container">
+
+
+  {% get_current_language as CURRENT_LANGUAGE %}
+  {% get_available_languages as AVAILABLE_LANGUAGES %}
+  {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+  <div class="languages">
+    <p>{% trans "Language" %}:</p>
+    <ul class="languages">
+      {% for language in languages %}
+        <li style="display:inline;padding: 16px">
+          <a href="/{{ language.code }}/{{resource.id}}"
+            {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
+            {{ language.name_local }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <h1>{{ resource.title_text }}</h1>
+  <p style="font-size:small"><a href="{{resource.url}}">{{resource.url}}</a> {% trans "Level" %}: {{resource.level_label}} - {% trans "Key Competence" %}: {{resource.key_competence_label}}
+  </p>
+
+  <p>{{resource.description}}
+  </p>
+
+  <p style="font-size:small">{{resource.pub_date}}
+  </p>
+
+  <p><a href="/{{ resource.get_current_language }}"> {% trans "Back to home" %}</a> 
+  </p>
+  
+</div>
