@@ -91,6 +91,8 @@ The generic schema of folders created for documentation is as following:
 - test: Test experiment.  
 
 #### Repo tree:
+# deploy-impact-22-openedu-e
+
 * [docs/](.\deploy-impact-22-openedu-e\docs)
   * [Future Outlooks/](.\deploy-impact-22-openedu-e\docs\Future Outlooks)
     * [README.md](.\deploy-impact-22-openedu-e\docs\Future Outlooks\README.md)
@@ -109,6 +111,8 @@ The generic schema of folders created for documentation is as following:
     * [Database/](.\deploy-impact-22-openedu-e\src\Data\Database)
     * [Datasets/](.\deploy-impact-22-openedu-e\src\Data\Datasets)
     * [Scraped Data/](.\deploy-impact-22-openedu-e\src\Data\Scraped Data)
+  * [Installation/](.\deploy-impact-22-openedu-e\src\Installation)
+    * [README.md](.\deploy-impact-22-openedu-e\src\Installation\README.md)
   * [NLP/](.\deploy-impact-22-openedu-e\src\NLP)
     * [Content Analysis/](.\deploy-impact-22-openedu-e\src\NLP\Content Analysis)
     * [Content Moderation/](.\deploy-impact-22-openedu-e\src\NLP\Content Moderation)
