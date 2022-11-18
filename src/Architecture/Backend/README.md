@@ -8,7 +8,7 @@ We opted to mapping our ontology to a relational database due to the following r
 
 Researchers have proposed several approaches to store and manage ontological data in relational databases. Relational ontology storage approaches could be either: schema oblivious, schema aware, or mixed schema. Schema oblivious uses fixed relational structure for all ontological content. Schema aware adopts a variable number of relational tables to closely represent ontological data. Mixed schema adopts both schema oblivious and schema aware approaches.
 
-Our chosen approach is a ** Schema Oblivious** one. The advantage with this approach is that the schema is ontology independent and therefore more suitable for dynamic ontologies which would be the case with OpenEdu as an iteratively evolving platform. The limitations of this approach are data redundancy and difficult to store more expressive ontologies. 
+Our chosen approach is a **Schema Oblivious** one. The advantage with this approach is that the schema is ontology independent and therefore more suitable for dynamic ontologies which would be the case with OpenEdu as an iteratively evolving platform. The limitations of this approach are data redundancy and difficult to store more expressive ontologies. 
 
 A relational database mapping an ontology consists of two main components:
 -	**The A Box**: Factual ontology components, i.e., instances and their associated relationships and attributes.
