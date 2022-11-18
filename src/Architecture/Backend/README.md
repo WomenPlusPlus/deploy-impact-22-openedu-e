@@ -49,9 +49,14 @@ combination of corresponding columns, and a foreign key that reference to the do
 
 
 4.**OWL Datatypes**
--Data types are converted from XSD to SQL, because OWL uses XSD data types. The table below shows how to convert different data types from XSD to SQL.
+-Data types are converted from XSD to SQL, because OWL uses XSD data types. The table below shows how to convert different data types from XSD to SQL. An overview of the corresponding sql datatypes for their sxd counterparts can be found [here](https://pdfs.semanticscholar.org/939d/9c03cdd45016a7e242c54302ce5c73c55bb7.pdf). The most commonly used ones in our ontology are:
 
-![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/6b2a97d7737a54773f7556d527f41738f1ace571/src/Architecture/Backend/datatype%20_xsd_to_sql_conversion.png)
+| xsd | sql |
+| ---- | ---- |
+| string | string |
+| integer | integer |
+| anyURI | varchar |
+| datetime | timestamp |
 
 
 4. **OWL Restrictions**
@@ -68,8 +73,11 @@ Due to time constraints, developing an actual database backend was not feasible.
 
 *Sources*
 [Ontology Storage Models and Tools: An Authentic Survey](https://www.degruyter.com/document/doi/10.1515/jisys-2014-0167/html)
+
 [OWLMap: Fully Automatic Mapping of Ontology into Relational Database Schema](https://pdfs.semanticscholar.org/939d/9c03cdd45016a7e242c54302ce5c73c55bb7.pdf)
+
 [The Fundamental Importance of Keeping an ABox and TBox Split](https://www.mkbergman.com/489/ontology-best-practices-for-data-driven-applications-part-2/)
+
 [A novel approach for learning ontology from relational database: from the construction to the evaluation](https://d-nb.info/1229820256/34)
 
 
