@@ -49,10 +49,10 @@ Users can contact the other users for open collaboration.
 The filters available on the website are unintuitive and the browsing and search for specific resources is tiresome and the resources are described in a very simple way. The content can also be duplicated.   
 
 - CONSEQUENCES: 
-Blocked cooperation between educators due to lack of contact info. 
-Dispersion of useful resources in various places and huge difficulty with finding a needed content that would enable learning or teaching. 
+Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.
 Upload of new resources is manual and complicated. 
-Moderation of the proposed content requires human action and fully manual analysis which hinders addition of bigger volume of resources.
+Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.
+Blocked cooperation between educators due to lack of available contact information. 
 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
