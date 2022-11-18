@@ -90,11 +90,44 @@ The generic schema of folders created for documentation is as following:
 - docs: Descritpive documentation of the solution and presentation [to add].
 - test: Test experiment.  
 
-These three folders are then sub-divided into different modules, which include (depending on the presence of the relevant files):
-- Data Architecture: it includes backend and frontend deliverables
-- Data: it includes current database content, used datasets and data scraping  
-- Ontology: includes new ontology design implemented in Protégé, patterns for future expansion of the ontology and multilingual support
-- NLP: AI-based features for semantic search, recommendations. 
+#### Repo tree:
+* [docs/](.\deploy-impact-22-openedu-e\docs)
+  * [Future Outlooks/](.\deploy-impact-22-openedu-e\docs\Future Outlooks)
+    * [README.md](.\deploy-impact-22-openedu-e\docs\Future Outlooks\README.md)
+  * [Work Documentation/](.\deploy-impact-22-openedu-e\docs\Work Documentation)
+    * [Architecture/](.\deploy-impact-22-openedu-e\docs\Work Documentation\Architecture)
+    * [Data/](.\deploy-impact-22-openedu-e\docs\Work Documentation\Data)
+    * [NLP Pipeline/](.\deploy-impact-22-openedu-e\docs\Work Documentation\NLP Pipeline)
+    * [Ontology/](.\deploy-impact-22-openedu-e\docs\Work Documentation\Ontology)
+    * [README.md](.\deploy-impact-22-openedu-e\docs\Work Documentation\README.md)
+  * [README.md](.\deploy-impact-22-openedu-e\docs\README.md)
+* [src/](.\deploy-impact-22-openedu-e\src)
+  * [Architecture/](.\deploy-impact-22-openedu-e\src\Architecture)
+    * [Backend/](.\deploy-impact-22-openedu-e\src\Architecture\Backend)
+    * [UI Design/](.\deploy-impact-22-openedu-e\src\Architecture\UI Design)
+  * [Data/](.\deploy-impact-22-openedu-e\src\Data)
+    * [Database/](.\deploy-impact-22-openedu-e\src\Data\Database)
+    * [Datasets/](.\deploy-impact-22-openedu-e\src\Data\Datasets)
+    * [Scraped Data/](.\deploy-impact-22-openedu-e\src\Data\Scraped Data)
+  * [NLP/](.\deploy-impact-22-openedu-e\src\NLP)
+    * [Content Analysis/](.\deploy-impact-22-openedu-e\src\NLP\Content Analysis)
+    * [Content Moderation/](.\deploy-impact-22-openedu-e\src\NLP\Content Moderation)
+    * [Content Recommendation/](.\deploy-impact-22-openedu-e\src\NLP\Content Recommendation)
+    * [Content Search/](.\deploy-impact-22-openedu-e\src\NLP\Content Search)
+    * [Content Upload/](.\deploy-impact-22-openedu-e\src\NLP\Content Upload)
+    * [README.md](.\deploy-impact-22-openedu-e\src\NLP\README.md)
+  * [Ontology/](.\deploy-impact-22-openedu-e\src\Ontology)
+    * [Access/](.\deploy-impact-22-openedu-e\src\Ontology\Access)
+    * [Design/](.\deploy-impact-22-openedu-e\src\Ontology\Design)
+    * [Multilingual Support/](.\deploy-impact-22-openedu-e\src\Ontology\Multilingual Support)
+    * [README.md](.\deploy-impact-22-openedu-e\src\Ontology\README.md)
+  * [README.md](.\deploy-impact-22-openedu-e\src\README.md)
+* [test/](.\deploy-impact-22-openedu-e\test)
+  * [Ontology/](.\deploy-impact-22-openedu-e\test\Ontology)
+    * [Access/](.\deploy-impact-22-openedu-e\test\Ontology\Access)
+    * [Evaluation/](.\deploy-impact-22-openedu-e\test\Ontology\Evaluation)
+  * [README.md](.\deploy-impact-22-openedu-e\test\README.md)
+* [LICENSE](.\deploy-impact-22-openedu-e\LICENSE)
 
 Moreover, please note: 
 - README.md
