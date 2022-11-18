@@ -31,12 +31,11 @@ Different schools and universities would love to benefit from the advantages to 
 - [Idea / Solution](#idea)
 - [Dependencies / Limitations](#limitations)
 - [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
+- [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
@@ -161,48 +160,19 @@ Tree:
 appropriate, describe how these limitations could point to the need for further research.
 
 Limitation of the created product:
-- Enhance current mvp into a finite product
+- Enhance current MVP into a finite product
 - Data Architecture solution: The solution does not cover database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
 - 
 
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
-- Data architecture design: Within the current scope only the general recommendation are included for microservices architecture, as well as defining the new target data schema for education content.
-- Ontology extension: Used for describing additional types of resources or users.
-- Machine learning? 
-
-## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development 
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-Final scripts are written in Python. 
-Sonia - Django !
-!! * For requirements like install packages 
-
+- Data Architecture and Backend Development: the current solution includes the general recommendations and UML diagram of a relational DB mapped to the newly proposed ontology. 
+- Ontology extensions:  For adopting additional content to OpenEdu.ch we created concepts of new classes and relationships which can be included to the ontology.
+- A/B Testing: 
+- NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
 
 ### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
+Requirements of the installed packages and versions are described in the domain-specific folders. 
 
 ## 🎈 Usage <a name="usage"></a>
 Add notes about how to use the system.
@@ -211,7 +181,7 @@ Add notes about how to use the system.
 - [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 - Ontology Editor: Protégé 5.5.0
-- Django plugin [Sonia]
+- Django plugin X.
 
 ## Languages
 - Python 3.8
@@ -226,8 +196,3 @@ Add notes about how to use the system.
 - [@YasmineM311](https://github.com/YasmineM311)
 - [@gildafc](https://github.com/gildafc)
 - [@annopol](https://github.com/annopol)
-
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
