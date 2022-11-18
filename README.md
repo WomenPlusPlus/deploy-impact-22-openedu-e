@@ -35,7 +35,7 @@ Different schools and universities would love to benefit from the advantages to 
 - [Authors](#authors)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
-In the center of attention there is OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
+OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
 
 - IDEAL: <br> 
 --The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
