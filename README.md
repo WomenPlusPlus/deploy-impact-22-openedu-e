@@ -67,11 +67,11 @@ Our product includes elements and workflows of streamlined uploading process, as
 </p>
                    
 Our value proposition:
-- Versatile Ontology for Knowledge Management for easier browsing, searching and fostering collaboration between educators
+- Versatile Ontology for Knowledge Management allowing easier browsing, searching and fostering collaboration between educators
 - Mulitlingual Ontology Support for enabling navigating materials created and described in foreign languages 
 - AI Engine enabling AI features (for Moderation and Upload) 
 - Moderation Board Workflow designed for more efficient approval process of the new content 
-- Uploading Process simlified and facilitated by organized forms and automatic functionalities
+- Uploading Process simplified and facilitated by organized forms and automatic functionalities
 - AI-based features facilitating the analysis of the new content and its moderation, as well as linking related materials 
 - Semantic Search for more relevant
 - Suggesting new Relevant Content for addition to the OpenEdu 
@@ -87,13 +87,13 @@ Our value proposition:
 ## Repository Structure: 
 The generic schema of folders created for documentation is as following:
 - src: Codes and parametrization of the module.
-- doc: Descritpive documentation of the solution and presentation [to add].
+- docs: Descritpive documentation of the solution and presentation [to add].
 - test: Test experiment.  
 
 These three folders are then sub-divided into different modules, which include (depending on the presence of the relevant files):
 - Data Architecture: it includes backend and frontend deliverables
 - Data: it includes current database content, used datasets and data scraping  
-- Ontology: 
+- Ontology: includes new ontology design implemented in Protégé, patterns for future expansion of the ontology and multilingual support
 - NLP: AI-based features for semantic search, recommendations. 
 
 Moreover, please note: 
@@ -110,8 +110,7 @@ appropriate, describe how these limitations could point to the need for further 
 
 Limitation of the created product:
 - Enhance current MVP into a finite product
-- Data Architecture solution: The solution does not cover database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
-- 
+- Data Architecture solution: The solution does not cover a database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
 
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
@@ -119,7 +118,7 @@ Limitation of the created product:
 Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
 The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
 
-- Ontology extensions:  For adopting additional content to OpenEdu.ch we created concepts of new classes and relationships which can be included to the ontology.
+- Ontology extensions:  For a recommender-based ontology design, we propose future possibilities for expanding the ontology by implementing learning paths and user-reviewing functionalities to the platform.
 - A/B Testing: 
 - NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
 
