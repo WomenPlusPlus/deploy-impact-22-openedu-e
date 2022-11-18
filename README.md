@@ -60,7 +60,7 @@ The prepared solution is a knowledge management and discovery tool for OpenEdu.c
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
 <p align="center">
 <a href="" rel="noopener">
-  <img src="https://user-images.githubusercontent.com/37207832/202766910-7e2b231b-e6d3-4119-9bda-7e80d299e51f.png" alt="Overview" width="630" height="380">
+  <img src="https://user-images.githubusercontent.com/37207832/202766910-7e2b231b-e6d3-4119-9bda-7e80d299e51f.png" alt="Overview" width="660" height="380">
 </a>
 </p>
                    
@@ -77,7 +77,7 @@ Our value proposition:
 
 <p align="center">
 <a href="" rel="noopener">
-<img src="https://user-images.githubusercontent.com/37207832/202767064-dd8d1011-79fb-45ee-8a0c-ae22fde70e1c.png" alt="Overview" width="520" height="340">
+<img src="https://user-images.githubusercontent.com/37207832/202767064-dd8d1011-79fb-45ee-8a0c-ae22fde70e1c.png" alt="Overview" width="650" height="380">
 </a>
 </p>
 
