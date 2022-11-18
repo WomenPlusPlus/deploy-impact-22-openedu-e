@@ -18,12 +18,17 @@ A relational database mapping an ontology consists of two main components:
 
 The process of mapping the ontology to a RDBMS entails the following steps:
 
+A box tables:
+
 -	Classes and subclasses are transformed into separate tables and one-to-one relationships are created among them. 
 -	Object properties (aka entity relationships) transformed into table relationships. Additional tables might be needed in some cases to map object properties.
 -	Data properties (aka attributes) are transformed into columns or tables according to their values (single value or multi value).
 
-![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/6b2a97d7737a54773f7556d527f41738f1ace571/src/Architecture/Backend/overview_mapping_rules.png)
-
+T box tables:
+- Creating a table for lass hierarchy
+- Creating a table for object properties with their domain and range classes
+- Creating a table for data properties with their domain classes and range datatypes
+- Creating a table for restrictions with their types, restricted class, property and domain 
 
 To do so we adapted the mapping rules from [this publication](https://pdfs.semanticscholar.org/939d/9c03cdd45016a7e242c54302ce5c73c55bb7.pdf) and other sources as follows:
 
@@ -65,13 +70,15 @@ Class” of property.
 
 
 ## Database architecture modelling
-Due to time constraints, developing an actual database backend was not feasible. However, the database architecture was modeled into a UML diagram as seen below using [draw io](https://www.diagrams.net/blog/move-diagrams-net). The table is green if it`s a superclass, yellow if it`s a 1st level subclass and blue if it`s a 2nd level subclass. Purple tables are for multi-value object properties.  
+Due to time constraints, developing an actual database backend was not feasible. However, the database architecture was modeled into a UML diagram as seen below using [draw io](https://www.diagrams.net/blog/move-diagrams-net). The table is green if it`s a superclass, yellow if it`s a 1st level subclass and blue if it`s a 2nd level subclass. Purple tables are for multi-value object properties. The image itself can be accesses [here](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/eddddb679360036df4084bf2d0401d9ce40b6406/src/Architecture/Backend/ontology_mapping_to_RDB_database_schema_UML_diagram.png)
 
 ![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/6b2a97d7737a54773f7556d527f41738f1ace571/src/Architecture/Backend/ontology_mapping_to_RDB_database_schema_UML_diagram.png)
 
 
 
+
 *Sources*
+
 [Ontology Storage Models and Tools: An Authentic Survey](https://www.degruyter.com/document/doi/10.1515/jisys-2014-0167/html)
 
 [OWLMap: Fully Automatic Mapping of Ontology into Relational Database Schema](https://pdfs.semanticscholar.org/939d/9c03cdd45016a7e242c54302ce5c73c55bb7.pdf)
