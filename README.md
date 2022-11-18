@@ -3,14 +3,13 @@ Repository for Team OpenEdu-E for deploy(impact) 2022
 
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://user-images.githubusercontent.com/37207832/202691843-84df34e0-180e-40ee-b70d-5a2b37bb5ea2.png" alt="Group logo">
- <img src="https://user-images.githubusercontent.com/37207832/199510757-5fde0b18-bd73-49bc-8c32-1a8827dcdf81.png" alt="Project logo">
+ <img src="https://user-images.githubusercontent.com/37207832/202691843-84df34e0-180e-40ee-b70d-5a2b37bb5ea2.png" alt="Group logo" width="800" height="200">
+    <br></br>
+ <img src="https://user-images.githubusercontent.com/37207832/199510757-5fde0b18-bd73-49bc-8c32-1a8827dcdf81.png" alt="Project logo" width="200" height="70">
 
 
 </a>
 </p>
-<h3 align="center">OpenEdu.ch</h3>
-
 <div align="center">
 
   [![OpenEdu.CH](https://img.shields.io/badge/project-OpenEdu-orange.svg)](http://openedu.ch) 
@@ -48,7 +47,12 @@ Different schools and universities would love to benefit from the advantages to 
 ## 💡 Idea / Solution <a name = "idea"></a>
 The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
-
+<p align="center">
+<a href="" rel="noopener">
+  <img src="https://user-images.githubusercontent.com/37207832/202766910-7e2b231b-e6d3-4119-9bda-7e80d299e51f.png" alt="Overview" width="600" height="380">
+</a>
+</p>
+                   
 Our value proposition:
 - Versatile Ontology for Knowledge Management and fostering collaboration between different users 
 - Mulitlingual Ontology Support built with Django 
@@ -58,6 +62,12 @@ Our value proposition:
 - Semantic Search
 - New Relevant Content sraping
 - Figma Prototype with UI/UX Design.
+
+<p align="center">
+<a href="" rel="noopener">
+<img src="https://user-images.githubusercontent.com/37207832/202767064-dd8d1011-79fb-45ee-8a0c-ae22fde70e1c.png" alt="Overview" width="520" height="340">
+</a>
+</p>
 
 
 ## Repository Structure: 
