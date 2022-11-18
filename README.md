@@ -39,20 +39,24 @@ Different schools and universities would love to benefit from the advantages to 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 In the center of attention there is OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
 
-- IDEAL: 
-The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. 
-Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.
-The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.
-Users can contact the other users for open collaboration. 
+- IDEAL: <br> 
+--The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
+--Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.<br> 
+--The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.<br> 
+--Users can contact the other users for open collaboration. <br> 
 
-- REALITY: 
-The filters available on the website are unintuitive and the browsing and search for specific resources is tiresome and the resources are described in a very simple way. The content can also be duplicated.   
+- REALITY: <br> 
+--Unrefined filters for content navigation. <br> 
+--Lack of ontology structuring the resources.<br> 
+--Only manual actions are needed for content upload and moderation.<br>
+--Very long and complicated upload fom<br>
+--No multilingual support and the resources are described and created in multiple languages. <br> 
 
-- CONSEQUENCES: 
-Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.
-Upload of new resources is manual and complicated. 
-Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.
-Blocked cooperation between educators due to lack of available contact information. 
+- CONSEQUENCES: <br> 
+--Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.<br> 
+--Upload of new resources is manual and complicated. <br> 
+--Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.<br> 
+--Blocked cooperation between educators due to lack of available contact information. <br> 
 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
