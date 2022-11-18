@@ -37,19 +37,28 @@ Different schools and universities would love to benefit from the advantages to 
 - [Authors](#authors)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
+[rework]
+In center of attention there is OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
 
-- IDEAL: The creation of an ontological definition that describes the content found at OpenEdu.ch will improve wikidata learning material organization and reachability. The main goal is to collect all the educational material (from wikimedia and from external sources) in one single place and make this material accessible. 
+- IDEAL: The portal shares information about relevant open educational material, enables its discovery, further refinement and addition, also promoting collaboration between educators from around the globe. 
+The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal. 
+Wikimedia Community and Educators can easily upload new content and are aided with automatic checks and autofilling functions.
+The Scientific Board approving the new content can check resources based on the automatic testing functions thus making the approval fast and efficient.
 
-- REALITY: The filters available on the website are unintuitive and the browsing and search for specific resources is tiresome and the resources are described in a very simple way. The content can also be duplicated.   
+
+- REALITY: 
+The creation of an ontological definition that describes the content found at OpenEdu.ch will improve wikidata learning material organization and reachability. 
+
+The filters available on the website are unintuitive and the browsing and search for specific resources is tiresome and the resources are described in a very simple way. The content can also be duplicated.   
 
 - CONSEQUENCES: Blocked cooperation between educators. Dispersion of useful resources in various places and huge difficulty with finding a needed content that would enable learning or teaching. Upload of new resources is manual and tiring. Moderation of the proposed content requires human action and fully manual analysis which hinders addition of bigger volume of resources.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
-The included product is a solution for knowledge management and discovery of OpenEdu.ch which is a platform listing open educational resources from around the world to enable free sharing of relevant content for teaching and learning. 
+The prepared solution is a knowledge management and discovery tool for OpenEdu.ch.
 Our product includes elements and workflows of streamlined uploading process, as well as moderation of the new content uploaded manually or automatically as a result of discovery of new relevant resources.  
 <p align="center">
 <a href="" rel="noopener">
-  <img src="https://user-images.githubusercontent.com/37207832/202766910-7e2b231b-e6d3-4119-9bda-7e80d299e51f.png" alt="Overview" width="600" height="380">
+  <img src="https://user-images.githubusercontent.com/37207832/202766910-7e2b231b-e6d3-4119-9bda-7e80d299e51f.png" alt="Overview" width="630" height="380">
 </a>
 </p>
                    
