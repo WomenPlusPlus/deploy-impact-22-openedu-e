@@ -1,6 +1,4 @@
 # deploy-impact-22-openedu-e
-Repository for Team OpenEdu-E for deploy(impact) 2022
-
 <p align="center">
   <a href="" rel="noopener">
  <img src="https://user-images.githubusercontent.com/37207832/202691843-84df34e0-180e-40ee-b70d-5a2b37bb5ea2.png" alt="Group logo">
@@ -22,8 +20,8 @@ Repository for Team OpenEdu-E for deploy(impact) 2022
 ---
 
 <p align="center"> 
-Different schools and universities would love to benefit from the advantages to have collaborative, shared educational material and prevent duplication of content. When planning an educational activity, the entities involved wish to use existing online material in order to ease the teachers life and to avoid duplication of materials. The existing material on the Internet is complex to find and very confusing. One thing that can save a lot of time is to be able to search a database with this amount of structured data (and directly contact the authors of the research/material).
-<br> 
+This section discusses the prepared product listing features and proposition for their implementation and further refinement.  
+  <br> 
 </p>
 
 ## 📝 Table of Contents
