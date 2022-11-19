@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class GoogleScraper3Pipeline:
+class GoogleScraperPipeline:
     def process_item(self, item, spider):
         return item
