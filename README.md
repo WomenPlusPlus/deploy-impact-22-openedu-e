@@ -107,16 +107,9 @@ Moreover, please note:
 The detailed tree, can be found [here](#repository-tree)
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
-appropriate, describe how these limitations could point to the need for further research.
-
 Limitation of the created product:
 - Enhance current MVP into a finite product
-- Data Architecture solution: The solution does not cover a database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
+- Data Architecture solution: The solution does not cover a database, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
 
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
