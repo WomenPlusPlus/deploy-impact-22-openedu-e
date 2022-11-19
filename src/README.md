@@ -18,7 +18,7 @@ The above folders documents components of our solution:
 - Data Architecture: 
 - Ontology: Meant for all documents relating to the creation of the ontology
 - NLP: All documents related to AI-based features
-- Ontology: 
+
 
 ## 💡 Features <a name = "features"></a>
 - Upload
@@ -41,9 +41,7 @@ The above folders documents components of our solution:
 
 * [Architecture/](.\src\Architecture)
   * [Backend/](.\src\Architecture\Backend)
-    * [datatype _xsd_to_sql_conversion.png](.\src\Architecture\Backend\datatype _xsd_to_sql_conversion.png)
     * [ontology_mapping_to_RDB_database_schema_UML_diagram.png](.\src\Architecture\Backend\ontology_mapping_to_RDB_database_schema_UML_diagram.png)
-    * [overview_mapping_rules.png](.\src\Architecture\Backend\overview_mapping_rules.png)
     * [README.md](.\src\Architecture\Backend\README.md)
   * [UI Design/](.\src\Architecture\UI Design)
     * [images/](.\src\Architecture\UI Design\images)
