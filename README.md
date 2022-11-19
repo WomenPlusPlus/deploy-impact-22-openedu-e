@@ -39,10 +39,10 @@ Different schools and universities would love to benefit from the advantages to 
 In the center of attention there is OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
 
 #### IDEAL: <br> 
--The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
--Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.<br> 
--The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.<br> 
--Users can contact the other users for open collaboration. <br> 
+- The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
+- Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.<br> 
+- The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.<br> 
+- Users can contact the other users for open collaboration. <br> 
 
 #### REALITY: <br> 
 - Unrefined filters for content navigation. <br> 
