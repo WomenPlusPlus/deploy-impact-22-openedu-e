@@ -13,7 +13,7 @@
 
   [![OpenEdu.CH](https://img.shields.io/badge/OpenEdu-UniFire-blueviolet.svg)](http://openedu.ch) 
  [![Program](https://img.shields.io/badge/Program-Deploy(impact)-blueviolet.svg)](https://www.womenplusplus.ch/deploy-impact) 
-  [![Status](https://img.shields.io/badge/Status-Developing-blueviolet.svg)](https://github.com/WomenPlusPlus/deploy-impact-21-kona-b/projects/5) 
+  ![Status](https://img.shields.io/badge/Status-Developing-blueviolet.svg) 
 
 
 
@@ -32,31 +32,30 @@ Different schools and universities would love to benefit from the advantages to 
 - [Dependencies / Limitations](#limitations)
 - [Future Scope](#future_scope)
 - [Prerequisites](#prerequisites)
-- [Usage](#usage)
 - [Technology Stack](#tech_stack)
 - [Authors](#authors)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 In the center of attention there is OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
 
-- IDEAL: <br> 
---The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
---Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.<br> 
---The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.<br> 
---Users can contact the other users for open collaboration. <br> 
+#### IDEAL: <br> 
+-The content of the website is easy to navigate and the search functionality is intuitive and provides sufficient and organized information to the users of the portal with suggestions of other related entries. <br> 
+-Wikimedia Community and Educators can easily upload new content, the uploading process is faciliated with automatic tools and the uploading forms are comfortable to understand and navigate.<br> 
+-The Scientific Board can approve or modify the newly uploaded content quicker based on the automatic testing functions.The new relevant content is also proposed automatically based on the parametrization given by the Moderators.<br> 
+-Users can contact the other users for open collaboration. <br> 
 
-- REALITY: <br> 
---Unrefined filters for content navigation. <br> 
---Lack of ontology structuring the resources.<br> 
---Only manual actions are needed for content upload and moderation.<br>
---Very long and complicated upload fom<br>
---No multilingual support and the resources are described and created in multiple languages. <br> 
+#### REALITY: <br> 
+- Unrefined filters for content navigation. <br> 
+- Lack of ontology structuring the resources.<br> 
+- Only manual actions are needed for content upload and moderation.<br>
+- Very long and complicated upload fom<br>
+- No multilingual support and the resources are described and created in multiple languages. <br> 
 
-- CONSEQUENCES: <br> 
---Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.<br> 
---Upload of new resources is manual and complicated. <br> 
---Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.<br> 
---Blocked cooperation between educators due to lack of available contact information. <br> 
+#### CONSEQUENCES: <br> 
+- Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.<br> 
+- Upload of new resources is manual and complicated. <br> 
+- Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.<br> 
+- Impeded cooperation between educators due to lack of available contact information. <br> 
 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
@@ -68,7 +67,7 @@ Our product includes elements and workflows of streamlined uploading process, as
 </a>
 </p>
                    
-Our value proposition: - **AI Engine** - 
+Our value proposition is **AI Engine** encompassing the following:
 
 - Versatile Ontology for Knowledge Management allowing easier browsing, searching and fostering collaboration between educators
 - Mulitlingual Ontology Support for enabling navigating materials created and described in foreign languages 
@@ -77,8 +76,9 @@ Our value proposition: - **AI Engine** -
 - Uploading Process simplified and facilitated by organized forms and automatic functionalities
 - AI-based features facilitating the analysis of the new content and its moderation, as well as linking related materials 
     - Moderation, Upload, Search, Recommendation,..
-- Semantic Search and Suggesting new Relevant Content for addition to the OpenEdu 
-- Figma Prototype with UI/UX Design.
+- Semantic Search for enriched results of the content querying
+- Figma Prototype with UI/UX Design
+- Extending the available content by suggesting new relevant content with web scrapers.
 
 To Enable a **structured, user-friendly, Informative, moderated, collaborative, and inclusive** Platform!
 
@@ -124,15 +124,14 @@ Limitation of the created product:
 Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
 The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
 
-- Ontology extensions:  For a recommender-based ontology design, we propose future possibilities for expanding the ontology by implementing learning paths and user-reviewing functionalities to the platform.
-- A/B Testing: 
-- NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
+- Ontology extensions:  Recommender-based ontology design for discovery of new topics, implementing conceptualization of how to expand the ontology by including learning paths, ratings etc, and adding user-reviewing functionalities to the platform.
+
+- A/B Testing: Experiments for assessing multiple website alternatives by users for statistical analysis to further refine the user journey.
+
+- NLP: Introducing the algorithmic user-based recommendation for more targeted suggestions.   
 
 ### Prerequisites
 Requirements of the installed packages and versions are described in the domain-specific folders. 
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [Azure](https://https://portal.azure.com/) | [Azure Content Moderator Cognitive Services]()
@@ -148,14 +147,17 @@ Add notes about how to use the system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@YasmineM311](https://github.com/YasmineM311)
-- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
-- [@cyyang50](https://github.com/cyyang50)
-- [@annopol](https://github.com/annopol)
-- [@slashlan](https://github.com/slashlan)
-- [@s-vigolo](https://github.com/s-vigolo)
-- [@gildafc](https://github.com/gildafc)
+- Yasmine Mohamed, [@YasmineM311](https://github.com/YasmineM311)
+- Ibtihel Ouni, [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
+- Chueh Yang, [@cyyang50](https://github.com/cyyang50)
+- Anna Wojcieszek [@annopol](https://github.com/annopol)
+- Marco Pistis [@slashlan](https://github.com/slashlan)
+- Sonia Vigolo, [@s-vigolo](https://github.com/s-vigolo)
+- Gilda Fernandez-Concha, [@gildafc](https://github.com/gildafc)
 
+## Recognition 
+<img src="https://user-images.githubusercontent.com/37207832/202848121-0f318918-75c2-4c62-adf3-77779f19d25b.png" width="200"  alt="deploy" ></br>
+<img src="https://user-images.githubusercontent.com/37207832/202848148-1926fb0b-e859-4472-adbf-fe3e6aa094f7.png" width="600"  alt="womenplusplus">      
 
 
 ### Repository tree 

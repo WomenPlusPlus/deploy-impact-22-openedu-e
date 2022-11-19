@@ -9,7 +9,6 @@ This section discusses the prepared product listing features and proposition for
 
 ## 📝 Table of Contents
 - [Overview](#overview)
-- [Features](#features)
 - [Repo structure](#repostructure)
 
 ## 🧐 Overview <a name = "overview"></a>
