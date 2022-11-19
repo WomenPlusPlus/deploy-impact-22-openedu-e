@@ -13,31 +13,16 @@ This section discusses the prepared product listing features and proposition for
 - [Repo structure](#repostructure)
 
 ## 🧐 Overview <a name = "overview"></a>
-The above folders documents components of our solution: 
-- Data:
-- Data Architecture: 
-- Ontology: Meant for all documents relating to the creation of the ontology
-- NLP: All documents related to AI-based features
+The AI engine is our solution encompassing  the analytical capabilities based on the newly desiged ontology. 
+It is a foundation enabling navigating the ontology, efficient search, browsing of OER, as well as makes smoother user journey through the portal and creates opportunities for employing the AI-based functionalities.
 
+The knowledge base that is created, codifies information and then an ontology is developed that reflects associations among different data elements. Ontology-based AI allows the system to make inferences based on content and relationships, and therefore emulates human performance. 
 
-## 💡 Features <a name = "features"></a>
-- Upload
-- Make process smoother
-- Moderation
-- Quality/policy Check
-- Content Search:
-- Use content - elaborate projects
-- Search Engine
-- Collaboration of Authors
-- Class: collection
-- inter-connect
-- Multinlingual Support for Ontology with Django plugin: mockup of a website
-
+## Please dive deep into the structure of the product described below.
 
 ## Repo structure <a name="repostructure"></a>
 
 #### The tree structure of src folder: 
-
 
 * [Architecture/](.\src\Architecture)
   * [Backend/](.\src\Architecture\Backend)
