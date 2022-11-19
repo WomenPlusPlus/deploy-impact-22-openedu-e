@@ -1,4 +1,4 @@
-# deploy-impact-22-openedu-e
+deploy-impact-22-openedu-e
 
 ## Introduction
 This directory stores all the files related to the discovery of the new relevant content. </br>
@@ -12,8 +12,8 @@ The API used allows for the scraping without getting banned and is taking care o
 
 ##### Parametrization
 Input configuration
--query.csv: the file contains a list of google search queries using advanced operators and topics aiming to capture Wiki-related pages, as well the information about the language of the words used in the query. It can be further enriched based on the article provided in ./doc
-![image](https://user-images.githubusercontent.com/37207832/202822524-07879f14-164e-4d64-b638-be8bc5b39308.png)
+-query.csv: the file contains a list of google search queries using advanced operators and topics aiming to capture Wiki-related pages, as well the information about the language of the words used in the query. It can be further enriched based on the article provided in ./doc. </br></br>
+<img src="https://user-images.githubusercontent.com/37207832/202822524-07879f14-164e-4d64-b638-be8bc5b39308.png" alt="quer" width="300" height="170"></br>
 
 -api_key.txt
 
@@ -26,9 +26,9 @@ to crawl the web pages.
 
 ##### Extracted Data
 The extracted data is stored in the specified file path in a CSV format (other formats available): 
-![image](https://user-images.githubusercontent.com/37207832/202822730-d170435a-6d0b-436b-a6aa-a67021937971.png)
 
-You can see the data scraped in serp.csv. This is the result of running with the default setting and the categories specified in src/google_scraper/query.csv.
+You can see the data scraped in serp.csv. This is the result of running with the default setting and the categories specified in src/google_scraper/query.csv. </br>
+<img src="https://user-images.githubusercontent.com/37207832/202823365-03d35cec-7917-4f97-8de3-750ffc72d543.png" alt="result" width="700" height="350">
 
 For each SERP, four fields were extracted:
 - snippet: description of each search results briefly showing the content relevant to the input query
@@ -36,7 +36,7 @@ For each SERP, four fields were extracted:
 - title: the title of the article.
 - position: number of entry scraped
 - date: date of scraper's run
-![Uploading image.png…]()
+
 
 ##### Dependencies/Limitations
 - Scrapy: The official documentation page recommends installing the package using conda or miniconda.
