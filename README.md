@@ -104,6 +104,61 @@ These three folders are then sub-divided into different AI Engine modules, which
 Moreover, please note: 
 - [README.md]()
 - [licence:]() GPL license.
+The detailed tree, can be found [here](#repository-tree)
+
+## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
+- What are the dependencies of your project?
+- Describe each limitation in detailed but concise terms
+- Explain why each limitation exists
+- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
+- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
+appropriate, describe how these limitations could point to the need for further research.
+
+Limitation of the created product:
+- Enhance current MVP into a finite product
+- Data Architecture solution: The solution does not cover a database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
+
+
+## 🚀 Future Scope <a name = "future_scope"></a>
+- Data Architecture and Backend Development: 
+Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
+The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
+
+- Ontology extensions:  For a recommender-based ontology design, we propose future possibilities for expanding the ontology by implementing learning paths and user-reviewing functionalities to the platform.
+- A/B Testing: 
+- NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
+
+### Prerequisites
+Requirements of the installed packages and versions are described in the domain-specific folders. 
+
+## 🎈 Usage <a name="usage"></a>
+Add notes about how to use the system.
+
+## ⛏️ Built With <a name = "tech_stack"></a>
+- [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
+- [SparkNLP]()
+- [Figma](https://nodejs.org/en/) - Prototyping tool
+- [Ontology Editor:]() Protégé 5.5.0
+- [Django plugin Django-parler]()
+
+## Languages
+- Python 3.8
+- OWL 2 Web Ontology Language
+- RDF (Resource Description Framework)
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@YasmineM311](https://github.com/YasmineM311)
+- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
+- [@cyyang50](https://github.com/cyyang50)
+- [@annopol](https://github.com/annopol)
+- [@slashlan](https://github.com/slashlan)
+- [@s-vigolo](https://github.com/s-vigolo)
+- [@gildafc](https://github.com/gildafc)
+
+
+
+### Repository tree 
 
     ```bash
     $ tree
@@ -595,56 +650,3 @@ Moreover, please note:
     114 directories, 369 files
 
     ```
-
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
-appropriate, describe how these limitations could point to the need for further research.
-
-Limitation of the created product:
-- Enhance current MVP into a finite product
-- Data Architecture solution: The solution does not cover a database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
-
-
-## 🚀 Future Scope <a name = "future_scope"></a>
-- Data Architecture and Backend Development: 
-Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
-The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
-
-- Ontology extensions:  For a recommender-based ontology design, we propose future possibilities for expanding the ontology by implementing learning paths and user-reviewing functionalities to the platform.
-- A/B Testing: 
-- NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
-
-### Prerequisites
-Requirements of the installed packages and versions are described in the domain-specific folders. 
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## ⛏️ Built With <a name = "tech_stack"></a>
-- [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
-- [SparkNLP]()
-- [Figma](https://nodejs.org/en/) - Prototyping tool
-- [Ontology Editor:]() Protégé 5.5.0
-- [Django plugin Django-parler]()
-
-## Languages
-- Python 3.8
-- OWL 2 Web Ontology Language
-- RDF (Resource Description Framework)
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@YasmineM311](https://github.com/YasmineM311)
-- [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
-- [@cyyang50](https://github.com/cyyang50)
-- [@annopol](https://github.com/annopol)
-- [@slashlan](https://github.com/slashlan)
-- [@s-vigolo](https://github.com/s-vigolo)
-- [@gildafc](https://github.com/gildafc)
-
-
-
