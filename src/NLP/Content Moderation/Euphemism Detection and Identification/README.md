@@ -10,6 +10,9 @@
 
 ## Introduction
 This sub-unit aims to: __Euphemism Detection__ and __Euphemism Identification__ to support the content Moderation.
+* Euphemisms are Words with hidden meanings like below:
+![Euphemisms](https://user-images.githubusercontent.com/58151963/202836949-8ee540ff-4d38-42ab-8fc4-362345146a8c.PNG)
+
 
 
 ## Data
