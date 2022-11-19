@@ -104,6 +104,7 @@ These three folders are then sub-divided into different AI Engine modules, which
 Moreover, please note: 
 - [README.md]()
 - [licence:]() GPL license.
+
 The detailed tree, can be found [here](#repository-tree)
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
