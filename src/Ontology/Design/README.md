@@ -8,7 +8,7 @@
 * [6. Data properties (aka attributes)](#6-data-properties-aka-attributes)
 * [7. Constraints](#7-constraints) 
 * [8. Implementation of the Ontology](#8-implementation-of-the-ontology)
-* [9. Testing the ontology](#9-testing-the-ontology)
+* [9. Testing and visualizing the ontology](#9-testing-and-visualizing-the-ontology)
 * [10. Multilingual Support](#10-multilingual-support)
 * [12. Suggestions for future expansion](#12-suggestions-for-future-expansion)
 * [13. Resources and tools](#13-Resources-and-tools)
@@ -312,8 +312,9 @@ After creating the necessary elements of the ontology; namely classes and subcla
 
 The owl file can be found in our team`s drive [here](https://drive.google.com/drive/folders/1wugUEk349L0jEY83KCe1mCxgEdb7oQwE).
 
-## 9. Testing the ontology
+## 9. Testing and visualizing the ontology
 
+**Testing**
 
 In order to test our ontology and it`s capability to describe other candidate resources, we developed and used a crawler to suggest open education resources that could be relevant to the scope of OpenEdu. 
 The crawler suggested several resources some of which were already part of OpenEdu. After exclusion of irrelevant ad redundant content, 10 resources were considered suitable for incorporation into the platform, all of which were successfully classified by the new ontology and implemented into Protégé.
@@ -321,9 +322,13 @@ For ease of identification of these resources, the corresponding instances creat
 
 ![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/a843806ad2728a738a37dbcc79b70cfdc81972e0/src/Ontology/Design/test_resource4.png)
 
-
 This was also an opportunity to showcase a scenario where the uploader is an individual and not an institution. For the *current* OpenEdu content, we affiliated each resource to the institution that created it, e.g., Wikimedia foundation, University of Zurich, Wikimedia Germany etc., however, when implementing the *10 test resources* into Protégé, we created a user (a member of our team), created metadata for their hypothetical user profile details, and affiliated the test instances to them. 
 
+**Visulization**
+
+The VOWL plugin for Protégé can be used to visualize the ontology, more details can be found in [this article](https://medium.com/analytics-vidhya/prot%C3%A9g%C3%A9-d533f024087b). Below, we show our ontology visualized using Protégé VOWL plugin.
+
+![alt text](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/ba3a37f1badd7bc799c5d069c3a182f2d296f691/src/Ontology/Design/VOWL%20viuslization.png)
 
 
 ## 10. Multilingual Support
@@ -356,5 +361,6 @@ Another idea would be to implement a badge system for uploaders whether users or
 * [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/)
 * [RDF (Resource Description Framework)](https://en.wikipedia.org/wiki/Resource_Description_Framework) 
 
+### Ontology Visualization
 
-
+* [The VOWL plugin for Protégé](http://vowl.visualdataweb.org/protegevowl.html)

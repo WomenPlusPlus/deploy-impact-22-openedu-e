@@ -1,0 +1,9 @@
+The connection string is:
+postgresql://deploy_impact:AVNS_tEdPMnvmmI0knrjJe-R@deploy-impact-cg-chrisg-demo.aivencloud.com:24947/openedu?sslmode=preferred
+
+Databse: openedu
+User: deploy_impact
+Pwd: AVNS_tEdPMnvmmI0knrjJe-R
+
+This gives you read access to the whole database and can explore the tables. The ones of use are those with the sito_ prefix
+You can use the psql tool to connect from the command line or an application like pgadmin or Tableplus
