@@ -156,6 +156,10 @@ Add notes about how to use the system.
 - [@s-vigolo](https://github.com/s-vigolo)
 - [@gildafc](https://github.com/gildafc)
 
+## Recognition 
+<img width="1301" alt="wom111" src="https://user-images.githubusercontent.com/37207832/202848148-1926fb0b-e859-4472-adbf-fe3e6aa094f7.png">
+
+![wom2](https://user-images.githubusercontent.com/37207832/202848121-0f318918-75c2-4c62-adf3-77779f19d25b.png)
 
 
 ### Repository tree 
