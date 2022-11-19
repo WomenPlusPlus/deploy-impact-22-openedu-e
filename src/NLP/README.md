@@ -47,12 +47,17 @@
 
 ## Topics prediction and Similarity Search
 *  We runned Experiments fot topics detection, and modelling with Pycaret dor OpenEdu Content, Wikimedia, and Wiki-projects.
+* **AutoML:**
+    * We managed to automate the hyperparameters Tuning and model selection thanks to [Pycaret]() 
+* **ML Interpretability:**
+    * We used [Shapash]() and [Shap]()
+* We Tracked the experiments with [MLFlow]()
 
 ## Recommendation
-* 
+* Related Existing and External Content Suggestions based on Similarity Search.
 
 ## Upload
-* # Forms Automation and Filters Discovery
+### Forms Automation and Filters Discovery
 * AI assistant that automates form filling and discovers deep filters based on Named Entity Recognition.
 * To create positive user experience, We used AI to detect custom named entities and classify according to our needs.
 
