@@ -56,7 +56,7 @@ In the center of attention there is OpenEdu.ch which is the open education resou
 - Difficulty finding relevant resources on the website and in the web. Unintuitive navigation on the website.<br> 
 - Upload of new resources is manual and complicated. <br> 
 - Fully manual moderation of the newly proposed content which hinders addition of bigger number of resources.<br> 
--locked cooperation between educators due to lack of available contact information. <br> 
+- Impeded cooperation between educators due to lack of available contact information. <br> 
 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
@@ -68,7 +68,7 @@ Our product includes elements and workflows of streamlined uploading process, as
 </a>
 </p>
                    
-Our value proposition - **AI Engine** - :
+Our value proposition is **AI Engine** encompassing the following:
 
 - Versatile Ontology for Knowledge Management allowing easier browsing, searching and fostering collaboration between educators
 - Mulitlingual Ontology Support for enabling navigating materials created and described in foreign languages 
@@ -77,7 +77,7 @@ Our value proposition - **AI Engine** - :
 - Uploading Process simplified and facilitated by organized forms and automatic functionalities
 - AI-based features facilitating the analysis of the new content and its moderation, as well as linking related materials 
     - Moderation, Upload, Search, Recommendation,..
-- Semantic Search and Suggesting new Relevant Content for addition to the OpenEdu 
+- Semantic Search for enriched results of the content querying
 - Figma Prototype with UI/UX Design
 - Extending the available content by suggesting new relevant content with web scrapers.
 
@@ -125,9 +125,11 @@ Limitation of the created product:
 Due to internal project scoping and main requirements of the stakeholders, the current architectural proposition consists of the UML diagram of a relation DB mapped to the newly proposed ontology and the result of the comparative research. 
 The further development suggested by us, considers shifting the infrastructure to the cloud environment including a composition of microservices containing postgreSQL database and elasticsearch (a distributed search and analytics engine). 
 
-- Ontology extensions:  For a recommender-based ontology design, we propose future possibilities for expanding the ontology by implementing learning paths and user-reviewing functionalities to the platform.
-- A/B Testing: 
-- NLP: For refinement of the user browsing for the resources, the algorithmic recommendation tuned to a specific user can be built.   
+- Ontology extensions:  Recommender-based ontology design for discovery of new topics, implementing conceptualization of how to expand the ontology by including learning paths, ratings etc, and adding user-reviewing functionalities to the platform.
+
+- A/B Testing: Experiments for assessing multiple website alternatives by users for statistical analysis to further refine the user journey.
+
+- NLP: Introducing the algorithmic user-based recommendation for more targeted suggestions.   
 
 ### Prerequisites
 Requirements of the installed packages and versions are described in the domain-specific folders. 
