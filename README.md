@@ -12,7 +12,9 @@ The API used allows for the scraping without getting banned and is taking care o
 
 ##### Parametrization
 Input configuration
--query.csv
+-query.csv: the file contains a list of google search queries using advanced operators and topics aiming to capture Wiki-related pages, as well the information about the language of the words used in the query. It can be further enriched based on the article provided in ./doc
+![image](https://user-images.githubusercontent.com/37207832/202822524-07879f14-164e-4d64-b638-be8bc5b39308.png)
+
 -api_key.txt
 
 ##### Usage
@@ -23,13 +25,18 @@ scrapy crawl google -o serps.csv
 to crawl the web pages.
 
 ##### Extracted Data
-The extracted data is stored in the specified file path in a CSV format (other formats available). 
+The extracted data is stored in the specified file path in a CSV format (other formats available): 
+![image](https://user-images.githubusercontent.com/37207832/202822730-d170435a-6d0b-436b-a6aa-a67021937971.png)
+
 You can see the data scraped in serp.csv. This is the result of running with the default setting and the categories specified in src/google_scraper/query.csv.
 
 For each SERP, four fields were extracted:
-- description: description of each search results briefly showing the content relevant to the input query
-- url: the url to the full article, you can visit this url to read or crawl the full content
+- snippet: description of each search results briefly showing the content relevant to the input query
+- link: the url to the full article, you can visit this url to read or crawl the full content
 - title: the title of the article.
+- position: number of entry scraped
+- date: date of scraper's run
+![Uploading image.png…]()
 
 ##### Dependencies/Limitations
 - Scrapy: The official documentation page recommends installing the package using conda or miniconda.
