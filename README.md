@@ -135,8 +135,8 @@ Requirements of the installed packages and versions are described in the domain-
 Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
-- [Azure](https://https://portal.azure.com/) - Azure Cloud [TO DO: which component? Ibti, cognitive + sth else? ]
-- [SparkNLP]()
+- [Azure](https://https://portal.azure.com/) | [Azure Content Moderator Cognitive Services]()
+- [SparkNLP]() | [spaCy]()
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 - [Ontology Editor:]() Protégé 5.5.0
 - [Django plugin Django-parler]()
