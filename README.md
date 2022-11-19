@@ -139,6 +139,7 @@ Requirements of the installed packages and versions are described in the domain-
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 - [Ontology Editor:]() Protégé 5.5.0
 - [Django plugin Django-parler]()
+**Note:** This repo uses Python 3.8 and various NLP-related libraries that can be installed [here](src/Installation/README.md)
 
 ## Languages
 - Python 3.8
