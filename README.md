@@ -32,7 +32,6 @@ Different schools and universities would love to benefit from the advantages to 
 - [Dependencies / Limitations](#limitations)
 - [Future Scope](#future_scope)
 - [Prerequisites](#prerequisites)
-- [Usage](#usage)
 - [Technology Stack](#tech_stack)
 - [Authors](#authors)
 
@@ -133,9 +132,6 @@ The further development suggested by us, considers shifting the infrastructure t
 
 ### Prerequisites
 Requirements of the installed packages and versions are described in the domain-specific folders. 
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [Azure](https://https://portal.azure.com/) | [Azure Content Moderator Cognitive Services]()
