@@ -11,11 +11,11 @@ The program uses Scrapy Framework as well the ScraperAPI which enables a free Go
 The API used allows for the scraping without getting banned and is taking care of CAPTCHAs and user agents, as well as handles the anti-bots and proxies. 
 
 ##### Parametrization
-Input configuration
--query.csv: the file contains a list of google search queries using advanced operators and topics aiming to capture Wiki-related pages, as well the information about the language of the words used in the query. It can be further enriched based on the article provided in ./doc. </br></br>
+###### Input configuration
+-query.csv: The file contains a list of google search queries using advanced operators and topics aiming to capture Wiki-related pages, as well the information about the language of the words used in the query. It can be further enriched based on the article provided in ./doc. </br></br>
 <img src="https://user-images.githubusercontent.com/37207832/202822524-07879f14-164e-4d64-b638-be8bc5b39308.png" alt="quer" width="300" height="170"></br>
 
--api_key.txt
+-api_key.txt: The text file includes the value of the API key generated for the account used in the Free Plan of ScraperApi.
 
 ##### Usage
 After installing packages (scrapy), simply run:
@@ -35,7 +35,7 @@ For each SERP, four fields were extracted:
 - link: the url to the full article, you can visit this url to read or crawl the full content
 - title: the title of the article.
 - position: number of entry scraped
-- date: date of scraper's run
+- date: date of scraper's run.
 
 
 ##### Dependencies/Limitations
