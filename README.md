@@ -13,7 +13,7 @@
 
   [![OpenEdu.CH](https://img.shields.io/badge/OpenEdu-UniFire-blueviolet.svg)](http://openedu.ch) 
  [![Program](https://img.shields.io/badge/Program-Deploy(impact)-blueviolet.svg)](https://www.womenplusplus.ch/deploy-impact) 
-  [![Status](https://img.shields.io/badge/Status-Developing-blueviolet.svg)](https://github.com/WomenPlusPlus/deploy-impact-21-kona-b/projects/5) 
+  ![Status](https://img.shields.io/badge/Status-Developing-blueviolet.svg) 
 
 
 
