@@ -40,11 +40,10 @@ For each SERP, four fields were extracted:
 The program uses Scrapy Framework to extract information from researchgate.net.
 
 
-
 ## External Documentation: 
 - ScraperAPI: https://www.scraperapi.com/documentation/python/ 
 - Refine web search with advanced operators: https://support.google.com/websearch/answer/2466433?visit_id=638043801751520505-2327133070&p=adv_operators&hl=en&rd=1
-- Scrapy: 
+- Scrapy: https://scrapy.org/
 
 ## Recognition: 
 https://www.scraperapi.com/blog/scrape-data-google-search-results/
