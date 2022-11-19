@@ -1,4 +1,4 @@
-# Scrapy settings for google_scraper3 project
+# Scrapy settings for google_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'google_scraper3'
+BOT_NAME = 'google_scraper'
 
-SPIDER_MODULES = ['google_scraper3.spiders']
-NEWSPIDER_MODULE = 'google_scraper3.spiders'
+SPIDER_MODULES = ['google_scraper.spiders']
+NEWSPIDER_MODULE = 'google_scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'google_scraper3 (+http://www.yourdomain.com)'
+#USER_AGENT = 'google_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'google_scraper3.middlewares.GoogleScraper3SpiderMiddleware': 543,
+#    'google_scraper.middlewares.GoogleScraperSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'google_scraper3.middlewares.GoogleScraper3DownloaderMiddleware': 543,
+#    'google_scraper.middlewares.GoogleScraperDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'google_scraper3.pipelines.GoogleScraper3Pipeline': 300,
+#    'google_scraper.pipelines.GoogleScraperPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
