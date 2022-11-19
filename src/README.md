@@ -13,37 +13,20 @@ This section discusses the prepared product listing features and proposition for
 - [Repo structure](#repostructure)
 
 ## 🧐 Overview <a name = "overview"></a>
-The above folders documents components of our solution: 
-- Data:
-- Data Architecture: 
-- Ontology: Meant for all documents relating to the creation of the ontology
-- NLP: All documents related to AI-based features
-- Ontology: 
+The AI engine is our solution encompassing  the analytical capabilities based on the newly desiged ontology. 
+It is a foundation enabling navigating the ontology, efficient search, browsing of OER, as well as makes smoother user journey through the portal and creates opportunities for employing the AI-based functionalities.
 
-## 💡 Features <a name = "features"></a>
-- Upload
-- Make process smoother
-- Moderation
-- Quality/policy Check
-- Content Search:
-- Use content - elaborate projects
-- Search Engine
-- Collaboration of Authors
-- Class: collection
-- inter-connect
-- Multinlingual Support for Ontology with Django plugin: mockup of a website
+The knowledge base that is created, codifies information and then an ontology is developed that reflects associations among different data elements. Ontology-based AI allows the system to make inferences based on content and relationships, and therefore emulates human performance. 
 
+## Please dive deep into the structure of the product described below.
 
 ## Repo structure <a name="repostructure"></a>
 
 #### The tree structure of src folder: 
 
-
 * [Architecture/](.\src\Architecture)
   * [Backend/](.\src\Architecture\Backend)
-    * [datatype _xsd_to_sql_conversion.png](.\src\Architecture\Backend\datatype _xsd_to_sql_conversion.png)
     * [ontology_mapping_to_RDB_database_schema_UML_diagram.png](.\src\Architecture\Backend\ontology_mapping_to_RDB_database_schema_UML_diagram.png)
-    * [overview_mapping_rules.png](.\src\Architecture\Backend\overview_mapping_rules.png)
     * [README.md](.\src\Architecture\Backend\README.md)
   * [UI Design/](.\src\Architecture\UI Design)
     * [images/](.\src\Architecture\UI Design\images)
