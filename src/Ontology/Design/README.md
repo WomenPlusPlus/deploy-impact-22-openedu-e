@@ -363,4 +363,4 @@ Another idea would be to implement a badge system for uploaders whether users or
 
 ### Ontology Visualization
 
-* The VOWL plugin for Protégé can be used to visualize the ontology, more details can be found in [this article](https://medium.com/analytics-vidhya/prot%C3%A9g%C3%A9-d533f024087b)
+* [The VOWL plugin for Protégé](http://vowl.visualdataweb.org/protegevowl.html)
