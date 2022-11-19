@@ -31,7 +31,7 @@ The judgment criteria of the quality check mainly focus on topic fitness and con
 * Quality check:
 Moderators check the similarity according to the result from AI-check. Moderators could define a specific score/percentage. Once the score/percentage of similarity exceeds the defined score/percentage. Moderators could contact uploaders for further discussion and merge it with other suggested similar content.
 
-![Moderation System](https://user-images.githubusercontent.com/80690817/202767447-97893836-afe3-49ae-b726-f73f549e8816.png)
+    ![Moderation System](https://user-images.githubusercontent.com/80690817/202767447-97893836-afe3-49ae-b726-f73f549e8816.png)
 
 ## Link and License Checker
 - Automated link checker for legalcode and license URLs

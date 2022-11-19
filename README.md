@@ -136,7 +136,7 @@ Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [Azure](https://https://portal.azure.com/) | [Azure Content Moderator Cognitive Services]()
-- [SparkNLP]()
+- [SparkNLP]() | [spaCy]()
 - [Figma](https://nodejs.org/en/) - Prototyping tool
 - [Ontology Editor:]() Protégé 5.5.0
 - [Django plugin Django-parler]()
