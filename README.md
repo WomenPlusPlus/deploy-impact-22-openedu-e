@@ -94,9 +94,8 @@ To Enable a **structured, user-friendly, Informative, moderated, collaborative, 
 The generic schema of folders created for documentation is as following:
 - [src:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/src)  Implementation and parametrization of the module.
 - [docs:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/docs) Descritpive documentation of the solution and presentation [to add].
-- [test:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/test) Code and Experiments Testing.  
 
-These three folders are then sub-divided into different AI Engine modules, which include (depending on the presence of the relevant files):
+These folders are then sub-divided into different AI Engine modules, which include (depending on the presence of the relevant files):
 - Data Architecture: it includes backend and frontend deliverables
 - Data: it includes current database content, used datasets and data scraping  
 - Ontology: includes new ontology design implemented in Protégé, patterns for future expansion of the ontology and multilingual support
