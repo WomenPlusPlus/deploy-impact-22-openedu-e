@@ -104,9 +104,9 @@ These three folders are then sub-divided into different AI Engine modules, which
 
 Moreover, please note: 
 - [README.md](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/main/README.md)
-- [GPL license:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/main/LICENSE).
+- [GPL license](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/main/LICENSE).
 
-The detailed tree, can be found [here](#repository-tree)
+The detailed tree for the repo, can be found [here](#repository-tree)
 
 ## ⛓️ Limitations <a name = "limitations"></a>
 
@@ -153,7 +153,9 @@ Requirements of the installed packages and versions are described in the domain-
 ## Resources
 
 [Link to our presentation](https://www.canva.com/design/DAFRlSCbu-g/FiH1rJ5rDJcAVnHhRLiAuQ/view?utm_content=DAFRlSCbu-g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 [Link to our Miro board](https://miro.com/app/board/uXjVPRFpfAs=/)
+
 [Link to our google drive](https://drive.google.com/drive/folders/1V0O3WWoJWENF3NF9_IwsNIZRNpTPT_zl)
 
 
