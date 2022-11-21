@@ -124,7 +124,7 @@ The further development suggested by us, considers shifting the infrastructure t
 
 - NLP: Introducing the algorithmic user-based recommendation for more targeted suggestions.   
 
-### Prerequisites
+## Prerequisites
 Requirements of the installed packages and versions are described in the domain-specific folders. 
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
