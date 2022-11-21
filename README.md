@@ -34,6 +34,7 @@ Different schools and universities would love to benefit from the advantages to 
 - [Prerequisites](#prerequisites)
 - [Technology Stack](#tech_stack)
 - [Authors](#authors)
+- [Resources](#resources)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 In the center of attention there is OpenEdu.ch which is the open education resources (OER) platform. Its mission is enabling sharing OER for teaching and learning, collaboration between educators in creating and reusing materials.
@@ -141,13 +142,20 @@ Requirements of the installed packages and versions are described in the domain-
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- Yasmine Mohamed, [@YasmineM311](https://github.com/YasmineM311)
+- Yasmine Mohamed, [@YasmineM311](https://github.com/YasmineM311) - Contact person
 - Ibtihel Ouni, [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
 - Chueh Yang, [@cyyang50](https://github.com/cyyang50)
 - Anna Wojcieszek [@annopol](https://github.com/annopol)
 - Marco Pistis [@slashlan](https://github.com/slashlan)
 - Sonia Vigolo, [@s-vigolo](https://github.com/s-vigolo)
 - Gilda Fernandez-Concha, [@gildafc](https://github.com/gildafc)
+
+## Resources
+
+[Link to our presentation](https://www.canva.com/design/DAFRlSCbu-g/FiH1rJ5rDJcAVnHhRLiAuQ/view?utm_content=DAFRlSCbu-g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+[Link to our Miro board](https://miro.com/app/board/uXjVPRFpfAs=/)
+[Link to our google drive](https://drive.google.com/drive/folders/1V0O3WWoJWENF3NF9_IwsNIZRNpTPT_zl)
+
 
 ## Recognition 
 <img src="https://user-images.githubusercontent.com/37207832/202848121-0f318918-75c2-4c62-adf3-77779f19d25b.png" width="200"  alt="deploy" ></br>
@@ -184,9 +192,7 @@ Requirements of the installed packages and versions are described in the domain-
     |   |-- Architecture
     |   |   |-- Backend
     |   |   |   |-- README.md
-    |   |   |   |-- datatype _xsd_to_sql_conversion.png
-    |   |   |   |-- ontology_mapping_to_RDB_database_schema_UML_diagram.png
-    |   |   |   `-- overview_mapping_rules.png
+    |   |   |   `-- ontology_mapping_to_RDB_database_schema_UML_diagram.png
     |   |   `-- UI Design
     |   |       |-- README.md
     |   |       `-- images
