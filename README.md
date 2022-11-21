@@ -29,7 +29,7 @@ Different schools and universities would love to benefit from the advantages to 
 ## 📝 Table of Contents
 - [Problem Statement](#problem_statement)
 - [Idea / Solution](#idea)
-- [Dependencies / Limitations](#limitations)
+- [Limitations](#limitations)
 - [Future Scope](#future_scope)
 - [Prerequisites](#prerequisites)
 - [Technology Stack](#tech_stack)
@@ -91,32 +91,24 @@ To Enable a **structured, user-friendly, Informative, moderated, collaborative, 
 
 ## Repository Structure: 
 The generic schema of folders created for documentation is as following:
-- [src:]()  Implementation and parametrization of the module.
-- [docs:]() Descritpive documentation of the solution and presentation [to add].
-- [test:]() Code and Experiments Testing.  
+- [src:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/src)  Implementation and parametrization of the module.
+- [docs:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/docs) Descritpive documentation of the solution and presentation [to add].
+- [test:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/tree/main/test) Code and Experiments Testing.  
 
 These three folders are then sub-divided into different AI Engine modules, which include (depending on the presence of the relevant files):
-- [Data Architecture:]() it includes backend and frontend deliverables
-- [Data:]() it includes current database content, used datasets and data scraping  
-- [Ontology:]() includes new ontology design implemented in Protégé, patterns for future expansion of the ontology and multilingual support
-- [NLP:]() AI-based features for semantic search, recommendations. 
+- Data Architecture: it includes backend and frontend deliverables
+- Data: it includes current database content, used datasets and data scraping  
+- Ontology: includes new ontology design implemented in Protégé, patterns for future expansion of the ontology and multilingual support
+- NLP: AI-based features for semantic search, recommendations. 
 
 Moreover, please note: 
-- [README.md]()
-- [licence:]() GPL license.
+- [README.md](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/main/README.md)
+- [GPL license:](https://github.com/WomenPlusPlus/deploy-impact-22-openedu-e/blob/main/LICENSE).
 
 The detailed tree, can be found [here](#repository-tree)
 
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if 
-appropriate, describe how these limitations could point to the need for further research.
+## ⛓️ Limitations <a name = "limitations"></a>
 
-Limitation of the created product:
-- Enhance current MVP into a finite product
 - Data Architecture solution: The solution does not cover a database schema, webservices setup and scalability solutions. This part has been moved out of the scope of the project due to the time constraint within the 6 week program. 
 
 
