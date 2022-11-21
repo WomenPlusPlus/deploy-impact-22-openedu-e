@@ -1,5 +1,3 @@
-deploy-impact-22-openedu-e
-
 ## Introduction
 This directory stores all the files related to the discovery of the new relevant content in order to support the uploading process and growth of OpenEdu.ch. </br>
 The proposition includes a program for scraping Google Search results, as well as scraping information from ResearchGate.
