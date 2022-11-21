@@ -141,10 +141,10 @@ Requirements of the installed packages and versions are described in the domain-
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- Yasmine Mohamed, [@YasmineM311](https://github.com/YasmineM311) - Contact person
+- Yasmine Mohamed, [@YasmineM311](https://github.com/YasmineM311) 
 - Ibtihel Ouni, [@Ibtihel-ouni](https://github.com/Ibtihel-ouni)
 - Chueh Yang, [@cyyang50](https://github.com/cyyang50)
-- Anna Wojcieszek [@annopol](https://github.com/annopol)
+- Anna Wojcieszek [@annopol](https://github.com/annopol) - Contact person
 - Marco Pistis [@slashlan](https://github.com/slashlan)
 - Sonia Vigolo, [@s-vigolo](https://github.com/s-vigolo)
 - Gilda Fernandez-Concha, [@gildafc](https://github.com/gildafc)
