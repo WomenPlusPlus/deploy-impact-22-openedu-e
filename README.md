@@ -157,6 +157,8 @@ Requirements of the installed packages and versions are described in the domain-
 
 [Link to our google drive](https://drive.google.com/drive/folders/1V0O3WWoJWENF3NF9_IwsNIZRNpTPT_zl)
 
+[Link to our Figma prototype](https://www.figma.com/file/FWPyKwfz51AA2quxe2O4Y6/OpenEdu_web?t=46qmdxeySpzwzder-0)
+
 
 ## Recognition 
 <img src="https://user-images.githubusercontent.com/37207832/202848121-0f318918-75c2-4c62-adf3-77779f19d25b.png" width="200"  alt="deploy" ></br>
