@@ -168,15 +168,15 @@ Requirements of the installed packages and versions are described in the domain-
 ### Repository tree 
 
     ```bash
+
     $ tree
     .
     |-- LICENSE
     |-- README.md
     |-- docs
     |   |-- Further Technologies
-    |   |-- Future Outlooks
-    |   |   `-- README.md
-    |   |-- README.md
+    |   |-- UniFire on Fire OpenEduE.pdf
+    |   |-- Visual_OpenEdu_E.png
     |   `-- Work Documentation
     |       |-- Architecture
     |       |   |-- Discover Django!.pdf
@@ -187,336 +187,39 @@ Requirements of the installed packages and versions are described in the domain-
     |       |-- NLP Pipeline
     |       |   `-- Moderation
     |       |       `-- Wiki Duplicates info.pdf
-    |       |-- Ontology
-    |       |   |-- OER_suggestions - Arkusz1.pdf
-    |       |   `-- Ontology articles and references.pdf
-    |       `-- README.md
+    |       `-- Ontology
+    |           |-- OER_suggestions - Arkusz1.pdf
+    |           `-- Ontology articles and references.pdf
     |-- src
     |   |-- Architecture
     |   |   |-- Backend
-    |   |   |   |-- README.md
     |   |   |   `-- ontology_mapping_to_RDB_database_schema_UML_diagram.png
     |   |   `-- UI Design
     |   |       |-- README.md
     |   |       `-- images
-    |   |           |-- 10_Login Page.png
-    |   |           |-- 11_Full search and results.png
-    |   |           |-- 120_Upload Form - Content Type.png
-    |   |           |-- 120_Upload Form - Policy.png
-    |   |           |-- 121_Successful upload.png
-    |   |           |-- 121_Uplod Form - Projects 1.png
-    |   |           |-- 121_Uplod Form - Projects.png
-    |   |           |-- 122_Upload Form - Events & Contests.png
-    |   |           |-- 130_Moderation System - main.png
-    |   |           |-- 131_Moderation System - New  Suggested Content.png
-    |   |           |-- 132_Moderation System - Upload Resource Moderation.png
+    |   |           |-- ...
     |   |           |-- 1_Main Page.png
     |   |           `-- test.MD
     |   |-- Data
     |   |   |-- Database
-    |   |   |   `-- __init__.py
+    |   |   |   `-- openedu_db_dump.txt
     |   |   |-- Datasets
-    |   |   |   |-- README.md
     |   |   |   |-- Wikimedia & Education Database - Database.csv
     |   |   |   `-- openedu_metadata_schema.xlsx
     |   |   |-- Scraped Data
-    |   |   |   |-- README.md
     |   |   |   |-- ResearchGate
-    |   |   |   |   |-- README.md
-    |   |   |   |   |-- path.py
-    |   |   |   |   |-- spider.py
-    |   |   |   |   `-- util
-    |   |   |   |       `-- helper.py
     |   |   |   `-- Wiki Projects
-    |   |   |       |-- README.md
-    |   |   |       `-- serps.csv
     |   |   `-- Scraped Metadata
     |   |-- Installation
-    |   |   |-- README.md
     |   |   |-- linux
     |   |   `-- windows
     |   |-- NLP
     |   |   |-- Content Analysis
     |   |   |   |-- Analysis Apps
-    |   |   |   |   |-- GIFs
-    |   |   |   |   |   |-- NLPiffy.gif
-    |   |   |   |   |   `-- Sentiment_Analysis_Emoji.gif
-    |   |   |   |   |-- NLPiffy.py
-    |   |   |   |   |-- README.md
-    |   |   |   |   `-- Sentiment Analysis Emoji App.py
     |   |   |   |-- Language_detection.ipynb
     |   |   |   `-- Topics Modeling
     |   |   |       |-- OpenEdu
     |   |   |       |   |-- Experiments Tracking
-    |   |   |       |   |   |-- logs.log
-    |   |   |       |   |   `-- mlruns
-    |   |   |       |   |       |-- 0
-    |   |   |       |   |       |   `-- meta.yaml
-    |   |   |       |   |       `-- 1
-    |   |   |       |   |           |-- 0ba9cc4fccdd4ecebca7d8055be4803a
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- Bigram.html
-    |   |   |       |   |           |   |   |-- POS.html
-    |   |   |       |   |           |   |   |-- Trigram.html
-    |   |   |       |   |           |   |   |-- Word Frequency.html
-    |   |   |       |   |           |   |   `-- id2word
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- Custom Stopwords
-    |   |   |       |   |           |   |   |-- Documents
-    |   |   |       |   |           |   |   |-- Vocab Size
-    |   |   |       |   |           |   |   `-- session_id
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- 3c062aa3da4b468982c24188d0e12db5
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- model
-    |   |   |       |   |           |   |   |-- model.expElogbeta.npy
-    |   |   |       |   |           |   |   |-- model.id2word
-    |   |   |       |   |           |   |   `-- model.state
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- alpha
-    |   |   |       |   |           |   |   |-- callbacks
-    |   |   |       |   |           |   |   |-- chunksize
-    |   |   |       |   |           |   |   |-- decay
-    |   |   |       |   |           |   |   |-- dispatcher
-    |   |   |       |   |           |   |   |-- distributed
-    |   |   |       |   |           |   |   |-- dtype
-    |   |   |       |   |           |   |   |-- eval_every
-    |   |   |       |   |           |   |   |-- gamma_threshold
-    |   |   |       |   |           |   |   |-- idword
-    |   |   |       |   |           |   |   |-- iterations
-    |   |   |       |   |           |   |   |-- minimum_phi_value
-    |   |   |       |   |           |   |   |-- minimum_probability
-    |   |   |       |   |           |   |   |-- num_terms
-    |   |   |       |   |           |   |   |-- num_topics
-    |   |   |       |   |           |   |   |-- num_updates
-    |   |   |       |   |           |   |   |-- numworkers
-    |   |   |       |   |           |   |   |-- offset
-    |   |   |       |   |           |   |   |-- optimize_alpha
-    |   |   |       |   |           |   |   |-- optimize_eta
-    |   |   |       |   |           |   |   |-- passes
-    |   |   |       |   |           |   |   |-- per_word_topics
-    |   |   |       |   |           |   |   |-- random_state
-    |   |   |       |   |           |   |   |-- state
-    |   |   |       |   |           |   |   `-- update_every
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.parentRunId
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- 555b9a7c1da947b5bf514a5a89fac297
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- Bigram.html
-    |   |   |       |   |           |   |   |-- POS.html
-    |   |   |       |   |           |   |   |-- Trigram.html
-    |   |   |       |   |           |   |   |-- Word Frequency.html
-    |   |   |       |   |           |   |   `-- id2word
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- Custom Stopwords
-    |   |   |       |   |           |   |   |-- Documents
-    |   |   |       |   |           |   |   |-- Vocab Size
-    |   |   |       |   |           |   |   `-- session_id
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- 63eeffcbbd574c4c9318d958106f9c8f
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- model
-    |   |   |       |   |           |   |   |-- model.expElogbeta.npy
-    |   |   |       |   |           |   |   |-- model.id2word
-    |   |   |       |   |           |   |   `-- model.state
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- alpha
-    |   |   |       |   |           |   |   |-- callbacks
-    |   |   |       |   |           |   |   |-- chunksize
-    |   |   |       |   |           |   |   |-- decay
-    |   |   |       |   |           |   |   |-- dispatcher
-    |   |   |       |   |           |   |   |-- distributed
-    |   |   |       |   |           |   |   |-- dtype
-    |   |   |       |   |           |   |   |-- eval_every
-    |   |   |       |   |           |   |   |-- gamma_threshold
-    |   |   |       |   |           |   |   |-- idword
-    |   |   |       |   |           |   |   |-- iterations
-    |   |   |       |   |           |   |   |-- minimum_phi_value
-    |   |   |       |   |           |   |   |-- minimum_probability
-    |   |   |       |   |           |   |   |-- num_terms
-    |   |   |       |   |           |   |   |-- num_topics
-    |   |   |       |   |           |   |   |-- num_updates
-    |   |   |       |   |           |   |   |-- numworkers
-    |   |   |       |   |           |   |   |-- offset
-    |   |   |       |   |           |   |   |-- optimize_alpha
-    |   |   |       |   |           |   |   |-- optimize_eta
-    |   |   |       |   |           |   |   |-- passes
-    |   |   |       |   |           |   |   |-- per_word_topics
-    |   |   |       |   |           |   |   |-- random_state
-    |   |   |       |   |           |   |   |-- state
-    |   |   |       |   |           |   |   `-- update_every
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.parentRunId
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- 73ddd7992e6c46c2b11cccd6312ab294
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- Bigram.html
-    |   |   |       |   |           |   |   |-- POS.html
-    |   |   |       |   |           |   |   |-- Trigram.html
-    |   |   |       |   |           |   |   |-- Word Frequency.html
-    |   |   |       |   |           |   |   `-- id2word
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- Custom Stopwords
-    |   |   |       |   |           |   |   |-- Documents
-    |   |   |       |   |           |   |   |-- Vocab Size
-    |   |   |       |   |           |   |   `-- session_id
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- a93f452a896641439b49ac346d33b404
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- model
-    |   |   |       |   |           |   |   |-- model.expElogbeta.npy
-    |   |   |       |   |           |   |   |-- model.id2word
-    |   |   |       |   |           |   |   `-- model.state
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- alpha
-    |   |   |       |   |           |   |   |-- callbacks
-    |   |   |       |   |           |   |   |-- chunksize
-    |   |   |       |   |           |   |   |-- decay
-    |   |   |       |   |           |   |   |-- dispatcher
-    |   |   |       |   |           |   |   |-- distributed
-    |   |   |       |   |           |   |   |-- dtype
-    |   |   |       |   |           |   |   |-- eval_every
-    |   |   |       |   |           |   |   |-- gamma_threshold
-    |   |   |       |   |           |   |   |-- idword
-    |   |   |       |   |           |   |   |-- iterations
-    |   |   |       |   |           |   |   |-- minimum_phi_value
-    |   |   |       |   |           |   |   |-- minimum_probability
-    |   |   |       |   |           |   |   |-- num_terms
-    |   |   |       |   |           |   |   |-- num_topics
-    |   |   |       |   |           |   |   |-- num_updates
-    |   |   |       |   |           |   |   |-- numworkers
-    |   |   |       |   |           |   |   |-- offset
-    |   |   |       |   |           |   |   |-- optimize_alpha
-    |   |   |       |   |           |   |   |-- optimize_eta
-    |   |   |       |   |           |   |   |-- passes
-    |   |   |       |   |           |   |   |-- per_word_topics
-    |   |   |       |   |           |   |   |-- random_state
-    |   |   |       |   |           |   |   |-- state
-    |   |   |       |   |           |   |   `-- update_every
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.parentRunId
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- b18160b6082f4812bc805079621f0bdd
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   `-- model.pkl
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- alpha
-    |   |   |       |   |           |   |   |-- alpha_H
-    |   |   |       |   |           |   |   |-- alpha_W
-    |   |   |       |   |           |   |   |-- beta_loss
-    |   |   |       |   |           |   |   |-- init
-    |   |   |       |   |           |   |   |-- l_ratio
-    |   |   |       |   |           |   |   |-- max_iter
-    |   |   |       |   |           |   |   |-- n_components
-    |   |   |       |   |           |   |   |-- random_state
-    |   |   |       |   |           |   |   |-- regularization
-    |   |   |       |   |           |   |   |-- shuffle
-    |   |   |       |   |           |   |   |-- solver
-    |   |   |       |   |           |   |   |-- tol
-    |   |   |       |   |           |   |   `-- verbose
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.parentRunId
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           |-- e1a71b2ec5bb4d0695eed0c9cbba1795
-    |   |   |       |   |           |   |-- artifacts
-    |   |   |       |   |           |   |   |-- Bigram.html
-    |   |   |       |   |           |   |   |-- POS.html
-    |   |   |       |   |           |   |   |-- Trigram.html
-    |   |   |       |   |           |   |   |-- Word Frequency.html
-    |   |   |       |   |           |   |   `-- id2word
-    |   |   |       |   |           |   |-- meta.yaml
-    |   |   |       |   |           |   |-- metrics
-    |   |   |       |   |           |   |-- params
-    |   |   |       |   |           |   |   |-- Custom Stopwords
-    |   |   |       |   |           |   |   |-- Documents
-    |   |   |       |   |           |   |   |-- Vocab Size
-    |   |   |       |   |           |   |   `-- session_id
-    |   |   |       |   |           |   `-- tags
-    |   |   |       |   |           |       |-- Run ID
-    |   |   |       |   |           |       |-- Run Time
-    |   |   |       |   |           |       |-- Source
-    |   |   |       |   |           |       |-- URI
-    |   |   |       |   |           |       |-- USI
-    |   |   |       |   |           |       |-- mlflow.parentRunId
-    |   |   |       |   |           |       |-- mlflow.runName
-    |   |   |       |   |           |       |-- mlflow.source.name
-    |   |   |       |   |           |       |-- mlflow.source.type
-    |   |   |       |   |           |       `-- mlflow.user
-    |   |   |       |   |           `-- meta.yaml
     |   |   |       |   `-- OpenEdu_pycaret.ipynb
     |   |   |       |-- Wikimedia
     |   |   |       |   `-- Wikimedia_pycaret.ipynb
@@ -524,10 +227,7 @@ Requirements of the installed packages and versions are described in the domain-
     |   |   |           `-- Wikipedia_pycaret.ipynb
     |   |   |-- Content Moderation
     |   |   |   |-- Duplicates Discovery
-    |   |   |   |   |-- Duplicates_main.py
-    |   |   |   |   |-- Duplicates_test.ipynb
-    |   |   |   |   `-- README.md
-    |   |   |   |-- README.md
+    |   |   |   |-- Euphemism Detection and Identification
     |   |   |   `-- content_moderator.py
     |   |   |-- Content Recommendation
     |   |   |   |-- Existing OpenEdu Contents
@@ -536,27 +236,19 @@ Requirements of the installed packages and versions are described in the domain-
     |   |   |   `-- External Contents
     |   |   |-- Content Search
     |   |   |   `-- Demo App
-    |   |   |       |-- OpenEdu_main.py
-    |   |   |       |-- README.md
-    |   |   |       |-- Wikimedia-logo.png
-    |   |   |       |-- Wikimedia_asset_pic.png
-    |   |   |       `-- search_engine_video.gif
     |   |   |-- Content Translation
     |   |   |-- Content Upload
-    |   |   |   `-- AI-Autofill
-    |   |   |       |-- AI assistant.ipynb
-    |   |   |       `-- README.md
-    |   |   `-- README.md
+    |   |   |   |-- AI-Autofill
+    |   |   |   |   |-- AI assistant.ipynb
+    |   |   |   |   |-- Data
     |   |-- Ontology
     |   |   |-- Access
     |   |   |   |-- Exploring the ontology using OWLready2.ipynb
-    |   |   |   |-- README.md
-    |   |   |   `-- __init__.py
     |   |   |-- Design
     |   |   |   |-- Multilingual Support
     |   |   |   |-- Patterns
-    |   |   |   |   `-- README.md
-    |   |   |   |-- README.md
+    |   |   |   |   |-- Conceptual Map of Ontology Patterns.jpg
+    |   |   |   |-- VOWL viuslization.png
     |   |   |   |-- final ontology design.excalidraw
     |   |   |   |-- final ontology designX3.png
     |   |   |   |-- openedu_metadata_schema.xlsx
@@ -564,94 +256,15 @@ Requirements of the installed packages and versions are described in the domain-
     |   |   |   |-- test_resource4.png
     |   |   |   `-- unifire-openedu.owl
     |   |   |-- Multilingual Support
-    |   |   |   |-- README.MD
     |   |   |   `-- files
     |   |   |       |-- forms
-    |   |   |       |   |-- __init__.py
-    |   |   |       |   |-- __pycache__
-    |   |   |       |   |   |-- __init__.cpython-39.pyc
-    |   |   |       |   |   |-- admin.cpython-39.pyc
-    |   |   |       |   |   |-- apps.cpython-39.pyc
-    |   |   |       |   |   |-- forms.cpython-39.pyc
-    |   |   |       |   |   |-- models.cpython-39.pyc
-    |   |   |       |   |   |-- urls.cpython-39.pyc
-    |   |   |       |   |   `-- views.cpython-39.pyc
-    |   |   |       |   |-- admin.py
-    |   |   |       |   |-- apps.py
-    |   |   |       |   |-- forms.py
-    |   |   |       |   |-- migrations
-    |   |   |       |   |   |-- 0001_initial.py
-    |   |   |       |   |   |-- 0002_rename_your_name_personname_name.py
-    |   |   |       |   |   |-- 0003_resource.py
-    |   |   |       |   |   |-- 0004_remove_personname_name_remove_resource_description_and_more.py
-    |   |   |       |   |   |-- 0005_remove_resourcetranslation_pub_date.py
-    |   |   |       |   |   |-- 0006_resourcetranslation_pub_date.py
-    |   |   |       |   |   |-- 0007_personname_name_alter_resourcetranslation_pub_date_and_more.py
-    |   |   |       |   |   |-- 0008_alter_resourcetranslation_description_and_more.py
-    |   |   |       |   |   |-- 0009_remove_resourcetranslation_pub_date_and_more.py
-    |   |   |       |   |   |-- 0010_resource_key_competence_resource_level_and_more.py
-    |   |   |       |   |   |-- 0011_alter_resource_pub_date_and_more.py
-    |   |   |       |   |   |-- 0012_alter_resource_key_competence_and_more.py
-    |   |   |       |   |   |-- 0013_alter_resource_key_competence_and_more.py
-    |   |   |       |   |   |-- 0014_delete_personname_alter_resource_pub_date.py
-    |   |   |       |   |   |-- __init__.py
-    |   |   |       |   |   `-- __pycache__
-    |   |   |       |   |       |-- 0001_initial.cpython-39.pyc
-    |   |   |       |   |       |-- 0002_rename_your_name_personname_name.cpython-39.pyc
-    |   |   |       |   |       |-- 0003_resource.cpython-39.pyc
-    |   |   |       |   |       |-- 0004_remove_personname_name_remove_resource_description_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0005_remove_resourcetranslation_pub_date.cpython-39.pyc
-    |   |   |       |   |       |-- 0006_resourcetranslation_pub_date.cpython-39.pyc
-    |   |   |       |   |       |-- 0007_personname_name_alter_resourcetranslation_pub_date_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0008_alter_resourcetranslation_description_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0009_remove_resourcetranslation_pub_date_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0010_resource_key_competence_resource_level_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0011_alter_resource_pub_date_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0012_alter_resource_key_competence_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0013_alter_resource_key_competence_and_more.cpython-39.pyc
-    |   |   |       |   |       |-- 0014_delete_personname_alter_resource_pub_date.cpython-39.pyc
-    |   |   |       |   |       `-- __init__.cpython-39.pyc
-    |   |   |       |   |-- models.py
-    |   |   |       |   |-- static
-    |   |   |       |   |   `-- style.css
-    |   |   |       |   |-- templates
-    |   |   |       |   |   |-- index.html
-    |   |   |       |   |   |-- name.html
-    |   |   |       |   |   |-- newlang.html
-    |   |   |       |   |   |-- newresource.html
-    |   |   |       |   |   |-- resourceview.html
-    |   |   |       |   |   `-- thanks.html
-    |   |   |       |   |-- tests.py
-    |   |   |       |   |-- urls.py
-    |   |   |       |   `-- views.py
-    |   |   |       |-- locale
-    |   |   |       |   |-- de
-    |   |   |       |   |   `-- LC_MESSAGES
-    |   |   |       |   |       |-- django.mo
-    |   |   |       |   |       `-- django.po
-    |   |   |       |   |-- en
-    |   |   |       |   |   `-- LC_MESSAGES
-    |   |   |       |   |       |-- django.mo
-    |   |   |       |   |       `-- django.po
-    |   |   |       |   |-- fr
-    |   |   |       |   |   `-- LC_MESSAGES
-    |   |   |       |   |       |-- django.mo
-    |   |   |       |   |       `-- django.po
-    |   |   |       |   `-- it
-    |   |   |       |       `-- LC_MESSAGES
-    |   |   |       |           |-- django.mo
-    |   |   |       |           `-- django.po
     |   |   |       `-- settings.py
-    |   |   `-- README.md
-    |   `-- README.md
+    |   `-- UniFire AI Engine.PNG
     `-- test
         |-- Ontology
         |   |-- Access
-        |   |   `-- __init__.py
         |   `-- Evaluation
-        |       `-- __init__.py
-        `-- README.md
 
-    114 directories, 369 files
+    120 directories, 396 files
 
     ```
