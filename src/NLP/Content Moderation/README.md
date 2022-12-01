@@ -1,7 +1,7 @@
 # Moderation
 ## Table of Contents
 - [Introduction](#Introduction)
-- [The flow of moderation system:](#the-flow-of-moderation-system)
+- [The flow of moderation system](#the-flow-of-moderation-system)
 - [Link and License Checker](#link-and-license-checker)
 - [Text and Image Content moderation](#text-and-image-content-moderation)
 - [Self-Supervised Euphemism Detection and Identification for Content Moderation](#self-supervised-euphemism-detection-and-identification-for-content-moderation)
