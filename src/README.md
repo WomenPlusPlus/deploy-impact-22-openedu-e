@@ -19,12 +19,12 @@ It is a foundation enabling navigating the ontology, efficient search, browsing 
 * The knowledge base that is created, codifies information and then an ontology is developed that reflects associations among different data elements. Ontology-based AI allows the system to make inferences based on content and relationships, and therefore emulates human performance. 
 
 ### AI Engine Structure:
-* AI Engine is comprised of several fundamental modules which include 
+* AI Engine is comprised of several fundamental modules which include:
     * a Machine Learning Module
     * a Natural Language Processing Module
     * a Knowledge Representation(Ontology) Module
     * a UI Interface (OpenEdu.ch Platform)
-* The core of an AI Engine is implemented as an ontology which may be populated by default with a huge amount of general knowledge (e.g. the whole of Wikipedia in the form of DBPedia)
+* The core of an AI Engine is implemented as an ontology which may be populated by default with a huge amount of general knowledge (e.g. the whole of Wikipedia in the form of DBPedia).
 
 # Installation:
 
@@ -38,44 +38,26 @@ The code examples rely on a wide range of Python libraries from the Data Science
 
 #### The tree structure of `src` folder: 
 
-* [Architecture/](Architecture)
-  * [Backend/](Architecture/Backend)
-    * [ontology_mapping_to_RDB_database_schema_UML_diagram](Architecture/Backend/ontology_mapping_to_RDB_database_schema_UML_diagram.png)
-  * [UI Design/]()
-    * [images/]()
-* [Data/](Data)
-  * [Database/](Data/Database)
-  * [Datasets/](Data/Datasets)
+* [Architecture](Architecture)
+  * [Backend](Architecture/Backend)
+  * [UI Design](Architecture/UI%20Design/)
+* [Data](Data)
+  * [Database](Data/Database)
+  * [Datasets](Data/Datasets)
     * [openedu_metadata_schema.xlsx](Data/Datasets/openedu_metadata_schema.xlsx)
-    * [Wikimedia & Education Database - Database.csv](.)
-  * [Scraped Data/]()
-    * [ResearchGate/]()
-    * [Wiki Projects/]()
-* [Installation/](Installation)
-* [NLP/](NLP)
-  * [Content Analysis/]()
-    * [Analysis Apps/]()
-    * [Topics Modeling/]()
-    * [Language_detection.ipynb]()
-  * [Content Moderation/]()
-    * [Duplicates Discovery/]()
-    * [content_moderator.py]()
-  * [Content Recommendation/]()
-    * [Existing OpenEdu Contents/]()
-  * [Content Search/]()
-    * [Demo App/]()
-  * [Content Upload/]()
-    * [AI-Autofill/]()
-* [Ontology/](Ontology)
-  * [Access/](Ontology/Access)
-    * [Exploring the ontology using OWLready2]()
-  * [Design/](Ontology/Design)
-    * [Patterns/](Ontology/Design/Patterns)
-    * [final ontology design.excalidraw]()
-    * [final ontology design]()
-    * [openedu_metadata_schema.xlsx](Ontology/Design/openedu_metadata_schema.xlsx)
-    * [taxonomy](Ontology/Design/taxonomy.png)
-    * [test_resource](Ontology/Design/test_resource4.png)
-    * [unifire-openedu.owl](Ontology/Design/unifire-openedu.owl)
-  * [Multilingual Support/](Ontology/Design/MultilingualSupport)
-    * [files/]()
+    * [Wikimedia & Education Database - Database.csv](Data/Datasets/Wikimedia%20%26%20Education%20Database%20-%20Database.csv)
+  * [Scraped Data](Data/Scraped%20Data/)
+    * [ResearchGate](Data/Scraped%20Data/ResearchGate/)
+    * [Wiki Projects](Data/Scraped%20Data/Wiki%20Projects/)
+* [Installation](Installation)
+* [NLP](NLP)
+  * [Content Analysis](NLP/Content%20Analysis/)
+  * [Content Moderation](Nlp/Content%20Moderation/)
+  * [Content Recommendation](NLP/Content%20Recommendation/)
+  * [Content Search](NLP/Content%20Search/)
+  * [Content Upload](NLP/Content%20Upload/)
+    * [AI-Autofill](NlP/Content%20Upload/AI-Autofill/)
+* [Ontology](Ontology)
+  * [Access](Ontology/Access)
+  * [Design](Ontology/Design)
+  * [Multilingual Support](Ontology/Design/MultilingualSupport)
